@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Kadibia — quality goods for family life. Everyday essentials and seasonal collections, chosen with care.">
+<title>Kadibia | Quality goods for family life</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%231a302c'/%3E%3Ctext x='32' y='45' font-size='43' text-anchor='middle' fill='%23f7f3eb' font-family='Georgia'%3Ek%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="/kadibia-site-/style.css">
+</head>
+<body>
+<div class="announcement">Quality goods for family life <span>•</span> Free US shipping on orders $75+</div>
+<header class="header">
+<div class="header-inner">
+<a class="brand" href="/kadibia-site-/" aria-label="Kadibia home">kadibia<span>.</span></a>
+<nav class="nav" aria-label="Main navigation">
+<a href="/kadibia-site-/shop">Shop</a>
+<a href="/kadibia-site-/about">Our story</a>
+<a href="/kadibia-site-/faq">FAQ</a>
+<a href="/kadibia-site-/contact">Contact</a>
+</nav>
+<div class="header-actions">
+<button id="search-toggle" aria-label="Search products" title="Search">⌕</button>
+<button id="cart-toggle" aria-label="Open cart">Bag <span id="cart-count">0</span></button>
+<button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">☰</button>
+</div>
+</div>
+</header>
+<main id="app"></main>
+<footer class="footer">
+<div class="footer-grid">
+<div>
+<a class="brand inverse" href="/kadibia-site-/">kadibia<span>.</span></a>
+<p>Everyday essentials and seasonal favorites for your home, your kids, and the people you love — chosen with care, priced fairly.</p>
+</div>
+<div>
+<h3>Explore</h3>
+<a href="/kadibia-site-/shop">Shop all</a>
+<a href="/kadibia-site-/about">Our story</a>
+<a href="/kadibia-site-/contact">Contact</a>
+</div>
+<div>
+<h3>Help</h3>
+<a href="/kadibia-site-/faq">FAQ</a>
+<a href="/kadibia-site-/shipping-returns">Shipping &amp; returns</a>
+<a href="/kadibia-site-/privacy">Privacy policy</a>
+<a href="/kadibia-site-/terms">Terms of service</a>
+<a href="/kadibia-site-/cart">Your bag</a>
+</div>
+<div>
+<h3>Stay in the loop</h3>
+<p>New arrivals, seasonal collections, and subscriber-only offers.</p>
+<!-- ============================================================
+     NEWSLETTER SIGNUP — free options (pick ONE):
+     Option A (recommended): Mailchimp free tier → Audience → Signup
+       forms → Embedded forms → copy the form's "action" URL and paste
+       it into action="" below (keep method="post").
+     Option B: https://formspree.io → create a form → paste your
+       endpoint (https://formspree.io/f/xxxx) into action="" below.
+     Until a real URL is pasted, the form shows a friendly
+     "not connected yet" message instead of submitting.
+     ============================================================ -->
+<form class="newsletter" id="footer-newsletter" action="https://formspree.io/f/REPLACE_ME" method="POST">
+<label class="sr-only" for="footer-email">Email address</label>
+<input id="footer-email" name="email" type="email" placeholder="Email address" required>
+<button type="submit">Join</button>
+</form>
+</div>
+</div>
+<div class="footer-bottom">
+<span>© <span id="year"></span> Kadibia. All rights reserved.</span>
+<!-- REPLACE: your Instagram profile URL -->
+<span><a href="https://instagram.com/REPLACE_ME" target="_blank" rel="noopener">Instagram</a></span>
+</div>
+</footer>
+<div id="overlay" class="overlay" hidden></div>
+<aside id="cart-drawer" class="drawer" role="dialog" aria-modal="true" aria-label="Shopping bag" aria-hidden="true">
+<div class="drawer-head"><h2>Your bag <span id="drawer-count"></span></h2><button id="cart-close" aria-label="Close bag">×</button></div>
+<div id="drawer-body" class="drawer-body"></div>
+<div id="drawer-foot" class="drawer-foot"></div>
+</aside>
+<div id="toast" role="status" aria-live="polite"></div>
+<script src="/kadibia-site-/app.js" defer></script>
+</body>
+</html>
