@@ -1,22 +1,34 @@
-# kadibia starter store
+# Kadibia store
 
-Static HTML/CSS/JavaScript storefront. The live site is https://kadibia-store.chikadibia17.chatgpt.site/
+Static HTML/CSS/JavaScript storefront for **Kadibia** — quality goods for family life.
+Live site: https://kadibiax7.github.io/kadibia-site-/ (GitHub Pages, served from the `/kadibia-site-/` subpath).
 
 ## Upload to GitHub
 
-Unzip this package, then upload **all extracted files and folders** to the root of your repository. GitHub does not unpack an uploaded ZIP automatically. Keep `index.html`, `style.css`, and `app.js` together.
+Unzip the package, open the `for-github-upload` folder, select **everything inside it**,
+then on the repo page: **Add file → Upload files** → drag them in → commit.
+GitHub does not unpack an uploaded ZIP automatically.
 
 ## Preview locally
 
-From this folder run `python3 -m http.server 8000` and open http://localhost:8000/. Opening `index.html` directly as a file may not show all routes correctly.
+From the `for-github-upload` folder, serve it under the `/kadibia-site-/` base path:
+
+```bash
+mkdir -p /tmp/sitetest && ln -sfn "$PWD" /tmp/sitetest/kadibia-site-
+cd /tmp/sitetest && python3 -m http.server 8123
+```
+
+Then open http://localhost:8123/kadibia-site-/ — every route, the cart, and checkout
+work there exactly as on GitHub Pages.
 
 ## Edit
 
-- Product names, prices, images, variants and descriptions: `app.js` under `EDIT HERE`.
-- Layout and colors: `style.css`.
-- Header, footer, SEO description and favicon: `index.html`.
-- The route folders contain copies of `index.html` so direct page visits work on a static host. If you edit `index.html`, copy it to those folders too before redeploying.
+- **Products**: `app.js` — the catalog under `EDIT HERE` (schema documented in the comments).
+- **Payments**: `app.js` — `STRIPE_LINKS` at the top maps each product id to its Stripe Payment Link (see STEP 1 comment).
+- **Layout and colors**: `style.css`.
+- **Header/footer shell**: `index.html` — after editing, copy it into every route folder (`about/`, `cart/`, `checkout/`, `contact/`, `faq/`, `privacy/`, `shipping-returns/`, `shop/`, `terms/`, `product/*/`) so direct page visits work on a static host.
 
-Checkout, newsletter and contact forms are demos. Connect real services and replace sample policies/reviews before taking orders.
+## Before taking real orders
 
-This repository is a snapshot. Pushing to GitHub does not automatically update the existing ChatGPT Site.
+See `UPLOAD_AND_SETUP.md` (in the zip root) for the setup checklist: Stripe Payment Links,
+newsletter/contact form endpoints, `[TO FILL]` policy details, and swapping in real products.
