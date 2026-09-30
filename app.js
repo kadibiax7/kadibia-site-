@@ -23,7 +23,7 @@
         no monthly fee, no code changes needed.
    ------------------------------------------------------------------------- */
 const STRIPE_LINKS = {
-  'seamless-push-up-leggings': 'https://buy.stripe.com/REPLACE_ME_seamless-push-up-leggings',
+  'seamless-push-up-leggings': 'https://buy.stripe.com/5kQ00lfKK17b0rqfaR1ck00',
   'linen-throw':   'https://buy.stripe.com/REPLACE_ME_linen-throw',
   'ceramic-vase':  'https://buy.stripe.com/REPLACE_ME_ceramic-vase',
   'woven-basket':  'https://buy.stripe.com/REPLACE_ME_woven-basket',
