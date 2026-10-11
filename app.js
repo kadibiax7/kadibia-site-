@@ -147,6 +147,19 @@ const STRIPE_LINKS = {
   'coral-fleece-throw-blanket': 'https://buy.stripe.com/REPLACE_ME_coral-fleece-throw-blanket',
   'linen-sofa-cushion-cover': 'https://buy.stripe.com/REPLACE_ME_linen-sofa-cushion-cover',
   'waterproof-linen-table-runner': 'https://buy.stripe.com/REPLACE_ME_waterproof-linen-table-runner',
+  'blackhead-remover-tool-kit-8pcs': 'https://buy.stripe.com/REPLACE_ME_blackhead-remover-tool-kit-8pcs',
+  'facial-ice-roller': 'https://buy.stripe.com/REPLACE_ME_facial-ice-roller',
+  'gel-polish-remover-clips-10pcs': 'https://buy.stripe.com/REPLACE_ME_gel-polish-remover-clips-10pcs',
+  'double-side-foot-file': 'https://buy.stripe.com/REPLACE_ME_double-side-foot-file',
+  'refillable-perfume-atomizer-5ml': 'https://buy.stripe.com/REPLACE_ME_refillable-perfume-atomizer-5ml',
+  'makeup-brush-organizer-box': 'https://buy.stripe.com/REPLACE_ME_makeup-brush-organizer-box',
+  'ducare-eyebrow-tweezers-set': 'https://buy.stripe.com/REPLACE_ME_ducare-eyebrow-tweezers-set',
+  'nail-art-dotting-pen-set-3pcs': 'https://buy.stripe.com/REPLACE_ME_nail-art-dotting-pen-set-3pcs',
+  'glass-nail-rhinestones-1152pcs': 'https://buy.stripe.com/REPLACE_ME_glass-nail-rhinestones-1152pcs',
+  'toe-separators-50pcs': 'https://buy.stripe.com/REPLACE_ME_toe-separators-50pcs',
+  'dual-makeup-pencil-sharpener': 'https://buy.stripe.com/REPLACE_ME_dual-makeup-pencil-sharpener',
+  'hair-dye-mixing-bowl': 'https://buy.stripe.com/REPLACE_ME_hair-dye-mixing-bowl',
+  'orange-wood-cuticle-sticks-100pcs': 'https://buy.stripe.com/REPLACE_ME_orange-wood-cuticle-sticks-100pcs',
 };
 
 /* ----------------------------------------------------------------------------
@@ -322,6 +335,20 @@ const products=[
 {id:'coral-fleece-throw-blanket',sample:false,name:'Coral Fleece Throw Blanket',category:'Home Textiles',price:13.99,tag:'NEW',images:['/kadibia-site-/images/coral-fleece-throw-blanket-1.webp'],description:'Super soft coral fleece throw blanket. Lightweight, anti-pilling.',details:'100% polyester coral fleece.',colors:['Assorted'],sizes:['One size']},
 {id:'linen-sofa-cushion-cover',sample:false,name:'Linen Sofa Cushion Cover',category:'Home Textiles',price:13.99,tag:'NEW',images:['/kadibia-site-/images/linen-sofa-cushion-cover-1.webp'],description:'Linen sofa cushion cover. Decorative throw pillow case.',details:'Linen and polyester blend.',colors:['Assorted'],sizes:['One size']},
 {id:'waterproof-linen-table-runner',sample:false,name:'Waterproof Linen Table Runner',category:'Home Textiles',price:17.99,tag:'NEW',images:['/kadibia-site-/images/waterproof-linen-table-runner-1.webp'],description:'Waterproof linen table runner for wedding, party and home decor.',details:'100% linen, woven.',colors:['Assorted'],sizes:['One size']}
+,
+{id:'blackhead-remover-tool-kit-8pcs',sample:false,name:'Blackhead Remover Tool Kit (8-Pack)',category:'Beauty',price:7.99,tag:'NEW',images:['/kadibia-site-/images/blackhead-remover-tool-kit-8pcs-1.webp'],description:'Eight-piece stainless steel blackhead remover tool kit.',details:'Stainless steel.',colors:['Assorted'],sizes:['One size']},
+{id:'facial-ice-roller',sample:false,name:'Facial Ice Roller',category:'Beauty',price:8.99,tag:'NEW',images:['/kadibia-site-/images/facial-ice-roller-1.webp','/kadibia-site-/images/facial-ice-roller-2.webp'],description:'Facial ice roller massager. Cool rolling head for face massage.',details:'Plastic with gel core.',colors:['Assorted'],sizes:['One size']},
+{id:'gel-polish-remover-clips-10pcs',sample:false,name:'Gel Polish Remover Clips (10-Pack)',category:'Beauty',price:4.99,tag:'NEW',images:['/kadibia-site-/images/gel-polish-remover-clips-10pcs-1.webp'],description:'Ten reusable UV gel polish remover soak-off clips.',details:'Silicone and plastic.',colors:['Assorted'],sizes:['One size']},
+{id:'double-side-foot-file',sample:false,name:'Double-Side Foot File',category:'Beauty',price:6.99,tag:'NEW',images:['/kadibia-site-/images/double-side-foot-file-1.webp'],description:'Double-side foot file. Professional rasp for heels.',details:'PP plastic.',colors:['Assorted'],sizes:['One size']},
+{id:'refillable-perfume-atomizer-5ml',sample:false,name:'Refillable Perfume Atomizer (5ml)',category:'Beauty',price:4.99,tag:'NEW',images:['/kadibia-site-/images/refillable-perfume-atomizer-5ml-1.webp'],description:'5ml refillable perfume atomizer. Mini metal travel spray bottle.',details:'Aluminum and metal.',colors:['Assorted'],sizes:['5ml']},
+{id:'makeup-brush-organizer-box',sample:false,name:'Makeup Brush Organizer Box',category:'Beauty',price:9.99,tag:'NEW',images:['/kadibia-site-/images/makeup-brush-organizer-box-1.webp'],description:'Desktop makeup organizer box with brush storage case.',details:'Plastic.',colors:['Assorted'],sizes:['One size']},
+{id:'ducare-eyebrow-tweezers-set',sample:false,name:'Eyebrow Tweezers Set (3-Pack)',category:'Beauty',price:8.99,tag:'NEW',images:['/kadibia-site-/images/ducare-eyebrow-tweezers-set-1.webp'],description:'Three-piece eyebrow tweezers set: flat, slant and point tip. Stainless steel with pink bag.',details:'Stainless steel.',colors:['Assorted'],sizes:['One size']},
+{id:'nail-art-dotting-pen-set-3pcs',sample:false,name:'Nail Art Dotting Pen Set (3-Pack)',category:'Beauty',price:4.99,tag:'NEW',images:['/kadibia-site-/images/nail-art-dotting-pen-set-3pcs-1.webp'],description:'Three-piece nail art dotting pen set. Stainless steel stirring rods and spatulas.',details:'Stainless steel.',colors:['Assorted'],sizes:['One size']},
+{id:'glass-nail-rhinestones-1152pcs',sample:false,name:'Glass Nail Rhinestones (1152-Pack)',category:'Beauty',price:4.99,tag:'NEW',images:['/kadibia-site-/images/glass-nail-rhinestones-1152pcs-1.webp'],description:'1152 flatback glass nail rhinestones in mixed sizes SS4 to SS10.',details:'Glass.',colors:['Assorted'],sizes:['One size']},
+{id:'toe-separators-50pcs',sample:false,name:'Toe Separators (50-Pack)',category:'Beauty',price:6.99,tag:'NEW',images:['/kadibia-site-/images/toe-separators-50pcs-1.webp'],description:'Fifty soft sponge toe separators for pedicure and nail art.',details:'Sponge.',colors:['Assorted'],sizes:['One size']},
+{id:'dual-makeup-pencil-sharpener',sample:false,name:'Dual Makeup Pencil Sharpener',category:'Beauty',price:3.99,tag:'NEW',images:['/kadibia-site-/images/dual-makeup-pencil-sharpener-1.webp'],description:'Dual-hole makeup pencil sharpener for eyeliner, lip and eyebrow pencils.',details:'Plastic.',colors:['Assorted'],sizes:['One size']},
+{id:'hair-dye-mixing-bowl',sample:false,name:'Hair Dye Mixing Bowl',category:'Beauty',price:5.99,tag:'NEW',images:['/kadibia-site-/images/hair-dye-mixing-bowl-1.webp'],description:'Professional hair dye color mixing tint bowl for home and salon use.',details:'Plastic.',colors:['Assorted'],sizes:['One size']},
+{id:'orange-wood-cuticle-sticks-100pcs',sample:false,name:'Orange Wood Cuticle Sticks (100-Pack)',category:'Beauty',price:3.99,tag:'NEW',images:['/kadibia-site-/images/orange-wood-cuticle-sticks-100pcs-1.webp'],description:'One hundred orange wood cuticle pusher sticks for manicure and pedicure.',details:'Orange wood.',colors:['Assorted'],sizes:['One size']}
 ];
 
 /* ================= SAMPLE PRODUCTS — hidden from the live shop =================
