@@ -75,6 +75,9 @@ const STRIPE_LINKS = {
   'freshwater-pearl-stud-earrings': 'https://buy.stripe.com/REPLACE_ME_freshwater-pearl-stud-earrings',
   'bohemia-charm-bracelet-set-5pcs': 'https://buy.stripe.com/REPLACE_ME_bohemia-charm-bracelet-set-5pcs',
   'adjustable-toe-ring-set': 'https://buy.stripe.com/REPLACE_ME_adjustable-toe-ring-set',
+  'wotwoy-casual-cotton-basic-tee': 'https://buy.stripe.com/REPLACE_ME_wotwoy-casual-cotton-basic-tee',
+  'slithice-letter-print-casual-tee': 'https://buy.stripe.com/REPLACE_ME_slithice-letter-print-casual-tee',
+  'fanan-mesh-slip-on-loafers': 'https://buy.stripe.com/REPLACE_ME_fanan-mesh-slip-on-loafers',
 };
 
 /* ----------------------------------------------------------------------------
@@ -173,6 +176,10 @@ const products=[
 {id:'freshwater-pearl-stud-earrings',sample:false,name:'Freshwater Pearl Stud Earrings',category:'Jewelry',price:9.99,tag:'NEW',images:['/kadibia-site-/images/freshwater-pearl-stud-earrings-1.webp'],description:'Genuine 8mm freshwater pearl studs in white and pink, set in 925 sterling silver.',details:'Freshwater pearls, 925 sterling silver.',colors:['White','Pink'],sizes:['One size']},
 {id:'bohemia-charm-bracelet-set-5pcs',sample:false,name:'Bohemia Charm Bracelet Set (5-Piece)',category:'Jewelry',price:5.99,tag:'NEW',images:['/kadibia-site-/images/bohemia-charm-bracelet-set-5pcs-1.webp','/kadibia-site-/images/bohemia-charm-bracelet-set-5pcs-2.webp'],description:'Five gold-color charm bracelets with moon, crystal and geometric charms.',details:'Zinc alloy with crystal charms.',colors:['Gold'],sizes:['One size']},
 {id:'adjustable-toe-ring-set',sample:false,name:'Adjustable Toe Ring Set',category:'Jewelry',price:6.99,tag:'NEW',images:['/kadibia-site-/images/adjustable-toe-ring-set-1.webp'],description:'Adjustable open-band toe rings with heart pattern. Fits most.',details:'Copper alloy.',colors:['Assorted'],sizes:['One size']}
+,
+{id:'wotwoy-casual-cotton-basic-tee',sample:false,name:'Casual Cotton Basic Tee',category:'Clothing',price:24.99,tag:'NEW',images:['/kadibia-site-/images/wotwoy-casual-cotton-basic-tee-1.webp','/kadibia-site-/images/wotwoy-casual-cotton-basic-tee-2.webp'],description:'Loose-fit casual cotton tee. Knitted, breathable and stretchy. A wardrobe basic.',details:'Cotton. Machine wash cold.',colors:['Assorted'],sizes:['S','M','L','XL']},
+{id:'slithice-letter-print-casual-tee',sample:false,name:'Letter Print Casual Tee',category:'Clothing',price:11.99,tag:'NEW',images:['/kadibia-site-/images/slithice-letter-print-casual-tee-1.webp','/kadibia-site-/images/slithice-letter-print-casual-tee-2.webp'],description:'Casual cotton tee with letter print. Black and red.',details:'Cotton broadcloth. Machine wash cold.',colors:['Black','Red'],sizes:['S','M','L','XL']},
+{id:'fanan-mesh-slip-on-loafers',sample:false,name:'Mesh Slip-On Loafers',category:'Shoes',price:9.99,tag:'NEW',images:['/kadibia-site-/images/fanan-mesh-slip-on-loafers-1.webp'],description:'Breathable mesh slip-on loafers with EVA insole and outsole. Light and comfortable, fits true to size.',details:'Air mesh upper, EVA sole.',colors:['Assorted'],sizes:['35','36','37','38','39','40','41','42','43','44']}
 ];
 
 /* ================= SAMPLE PRODUCTS — hidden from the live shop =================
