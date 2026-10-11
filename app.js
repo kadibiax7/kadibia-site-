@@ -55,6 +55,11 @@ const STRIPE_LINKS = {
   'leopard-print-biker-shorts': 'https://buy.stripe.com/REPLACE_ME_leopard-print-biker-shorts',
   'graffiti-lace-up-canvas-sneakers': 'https://buy.stripe.com/REPLACE_ME_graffiti-lace-up-canvas-sneakers',
   'eilyken-lace-up-mesh-stiletto-sandals': 'https://buy.stripe.com/REPLACE_ME_eilyken-lace-up-mesh-stiletto-sandals',
+  'satin-pajama-set-couple': 'https://buy.stripe.com/REPLACE_ME_satin-pajama-set-couple',
+  'french-style-wireless-lace-bralette': 'https://buy.stripe.com/REPLACE_ME_french-style-wireless-lace-bralette',
+  'coin-chain-necklace-2pcs': 'https://buy.stripe.com/REPLACE_ME_coin-chain-necklace-2pcs',
+  'small-hoop-earrings-pair': 'https://buy.stripe.com/REPLACE_ME_small-hoop-earrings-pair',
+  'gold-chain-anklets-3pcs': 'https://buy.stripe.com/REPLACE_ME_gold-chain-anklets-3pcs',
 };
 
 /* ----------------------------------------------------------------------------
@@ -129,6 +134,12 @@ const products=[
 {id:'leopard-print-biker-shorts',sample:false,name:'Leopard Print Biker Shorts',category:'Clothing',price:8.99,tag:'NEW',images:['/kadibia-site-/images/leopard-print-biker-shorts-1.webp','/kadibia-site-/images/leopard-print-biker-shorts-2.webp'],description:'High-waist leopard print biker shorts in stretchy polyester and spandex. Made for workouts and athleisure.',details:'Polyester and spandex. Machine wash cold.',colors:['Leopard'],sizes:['S','M','L','XL']},
 {id:'graffiti-lace-up-canvas-sneakers',sample:false,name:'Graffiti Lace-Up Canvas Sneakers',category:'Shoes',price:23.5,tag:'NEW',images:['/kadibia-site-/images/graffiti-lace-up-canvas-sneakers-1.webp','/kadibia-site-/images/graffiti-lace-up-canvas-sneakers-2.webp'],description:'Casual lace-up canvas sneakers with graffiti print. Breathable mesh lining and EVA insole. True to size.',details:'Canvas upper, EVA insole.',colors:['Black','Red','Gray'],sizes:['35','36','37','38','39','40','41','42','43','44']},
 {id:'eilyken-lace-up-mesh-stiletto-sandals',sample:false,name:'Lace-Up Mesh Stiletto Sandals',category:'Shoes',price:29.5,tag:'NEW',images:['/kadibia-site-/images/eilyken-lace-up-mesh-stiletto-sandals-1.webp','/kadibia-site-/images/eilyken-lace-up-mesh-stiletto-sandals-2.webp'],description:'Strappy lace-up stiletto sandals with mesh panels and square toe. High heel (5-8cm).',details:'PU and mesh upper, rubber outsole.',colors:['White','Black'],sizes:['35','36','37','38','39','40','41','42']}
+,
+{id:'satin-pajama-set-couple',sample:false,name:'Satin Pajama Set',category:'Sleepwear',price:19.99,tag:'NEW',images:['/kadibia-site-/images/satin-pajama-set-couple-1.webp','/kadibia-site-/images/satin-pajama-set-couple-2.webp'],description:'Satin-finish pajama set with turn-down collar and elastic waist. Note: runs small per buyer reviews, consider sizing up.',details:'Polyester and spandex satin. Machine wash cold.',colors:['Assorted'],sizes:['S','M','L','XL']},
+{id:'french-style-wireless-lace-bralette',sample:false,name:'French Style Wireless Lace Bralette',category:'Sleepwear',price:8.99,tag:'NEW',images:['/kadibia-site-/images/french-style-wireless-lace-bralette-2.webp','/kadibia-site-/images/french-style-wireless-lace-bralette-2b.webp'],description:'Wireless lace bralette with deep V, light padding, and adjustable straps. Soft everyday comfort.',details:'Cotton and nylon with lace trim. Hand wash recommended.',colors:['Assorted'],sizes:['S','M','L']},
+{id:'coin-chain-necklace-2pcs',sample:false,name:'Coin Chain Necklace (2-Piece Set)',category:'Jewelry',price:6.99,tag:'NEW',images:['/kadibia-site-/images/coin-chain-necklace-2pcs-1.webp','/kadibia-site-/images/coin-chain-necklace-2pcs-2.webp'],description:'Two-piece gold-color coin chain necklace set with pearl bead choker and layered pendant.',details:'Zinc alloy.',colors:['Gold'],sizes:['One size']},
+{id:'small-hoop-earrings-pair',sample:false,name:'Small Hoop Earrings',category:'Jewelry',price:7.99,tag:'NEW',images:['/kadibia-site-/images/small-hoop-earrings-pair-1.webp','/kadibia-site-/images/small-hoop-earrings-pair-2.webp'],description:'Minimalist small hoop earrings, 1.8cm. Lead and nickel free per supplier.',details:'Zinc alloy, lead and nickel free.',colors:['Gold','Silver'],sizes:['One size']},
+{id:'gold-chain-anklets-3pcs',sample:false,name:'Gold Chain Anklets (3-Piece Set)',category:'Jewelry',price:10.99,tag:'NEW',images:['/kadibia-site-/images/gold-chain-anklets-3pcs-1.webp','/kadibia-site-/images/gold-chain-anklets-3pcs-2.webp'],description:'Set of three gold-color chain anklets. Beach-ready foot jewelry.',details:'Copper alloy.',colors:['Gold'],sizes:['One size']}
 ];
 
 /* ================= SAMPLE PRODUCTS — hidden from the live shop =================
