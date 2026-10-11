@@ -188,6 +188,19 @@ const STRIPE_LINKS = {
   'chain-strap-hobo-shoulder-bag': 'https://buy.stripe.com/REPLACE_ME_chain-strap-hobo-shoulder-bag',
   'insulated-lunch-tote': 'https://buy.stripe.com/REPLACE_ME_insulated-lunch-tote',
   'diaper-backpack': 'https://buy.stripe.com/REPLACE_ME_diaper-backpack',
+  'womens-knit-sock-sneakers': 'https://buy.stripe.com/REPLACE_ME_womens-knit-sock-sneakers',
+  'womens-teddy-bear-fuzzy-slippers': 'https://buy.stripe.com/REPLACE_ME_womens-teddy-bear-fuzzy-slippers',
+  'womens-fluffy-fur-slides': 'https://buy.stripe.com/REPLACE_ME_womens-fluffy-fur-slides',
+  'knit-slouchy-winter-beanie': 'https://buy.stripe.com/REPLACE_ME_knit-slouchy-winter-beanie',
+  'touchscreen-knit-winter-gloves': 'https://buy.stripe.com/REPLACE_ME_touchscreen-knit-winter-gloves',
+  'plush-cat-ear-earmuffs': 'https://buy.stripe.com/REPLACE_ME_plush-cat-ear-earmuffs',
+  'blue-light-blocking-cat-eye-glasses': 'https://buy.stripe.com/REPLACE_ME_blue-light-blocking-cat-eye-glasses',
+  'rattan-box-handbag': 'https://buy.stripe.com/REPLACE_ME_rattan-box-handbag',
+  'nylon-crescent-shoulder-bag': 'https://buy.stripe.com/REPLACE_ME_nylon-crescent-shoulder-bag',
+  'initial-letter-necklace': 'https://buy.stripe.com/REPLACE_ME_initial-letter-necklace',
+  'crystal-beaded-stretch-bracelet': 'https://buy.stripe.com/REPLACE_ME_crystal-beaded-stretch-bracelet',
+  'foldable-fabric-storage-cube-baskets': 'https://buy.stripe.com/REPLACE_ME_foldable-fabric-storage-cube-baskets',
+  'battery-led-fairy-string-lights': 'https://buy.stripe.com/REPLACE_ME_battery-led-fairy-string-lights',
 };
 
 /* ----------------------------------------------------------------------------
@@ -406,6 +419,20 @@ const products=[
 {id:'chain-strap-hobo-shoulder-bag',sample:false,name:'Chain-Strap Hobo Shoulder Bag',category:'Bags',price:21.49,tag:'NEW',images:['/kadibia-site-/images/chain-strap-hobo-shoulder-bag-1.webp'],description:'Slouchy hobo shoulder bag with chain straps and rivet detail. Black PU leather.',details:'PU leather, polyester lining.',colors:['Black'],sizes:['One size']},
 {id:'insulated-lunch-tote',sample:false,name:'Insulated Lunch Tote',category:'Bags',price:19.99,tag:'NEW',images:['/kadibia-site-/images/insulated-lunch-tote-1.webp'],description:'Insulated canvas lunch tote, 7L. Thermal lunch bag with shoulder strap.',details:'Canvas with thermal insulation.',colors:['Assorted'],sizes:['One size']},
 {id:'diaper-backpack',sample:false,name:'Waterproof Diaper Backpack',category:'Bags',price:27.99,tag:'NEW',images:['/kadibia-site-/images/diaper-backpack-1.webp'],description:'Waterproof diaper backpack. Large capacity mummy nappy bag with stroller straps.',details:'Waterproof polyester.',colors:['Assorted'],sizes:['One size']}
+,
+{id:'womens-knit-sock-sneakers',sample:false,name:'Knit Sock Sneakers',category:'Shoes',price:10.99,tag:'NEW',images:['/kadibia-site-/images/womens-knit-sock-sneakers-1.webp'],description:'Knit sock sneakers. Slip-on flat shoes with stretch knit upper.',details:'Stretch knit, rubber outsole.',colors:['Assorted'],sizes:['35','36','37','38','39','40','41','42']},
+{id:'womens-teddy-bear-fuzzy-slippers',sample:false,name:'Teddy Bear Fuzzy Slippers',category:'Shoes',price:22.99,tag:'NEW',images:['/kadibia-site-/images/womens-teddy-bear-fuzzy-slippers-1.webp'],description:'Teddy bear fuzzy house slippers. Plush warm indoor slides. Note: runs larger than usual.',details:'Corduroy with faux fur.',colors:['Assorted'],sizes:['One size']},
+{id:'womens-fluffy-fur-slides',sample:false,name:'Fluffy Faux Fur Slides',category:'Shoes',price:20.99,tag:'NEW',images:['/kadibia-site-/images/womens-fluffy-fur-slides-1.webp'],description:'Fluffy faux fur slides. Cozy indoor slippers.',details:'Faux fur, EVA outsole.',colors:['Assorted'],sizes:['35','36','37','38','39','40','41','42']},
+{id:'knit-slouchy-winter-beanie',sample:false,name:'Knit Slouchy Winter Beanie',category:'Accessories',price:20.99,tag:'NEW',images:['/kadibia-site-/images/knit-slouchy-winter-beanie-1.webp'],description:'Knit slouchy winter beanie. Soft acrylic winter hat.',details:'Acrylic.',colors:['Assorted'],sizes:['One size']},
+{id:'touchscreen-knit-winter-gloves',sample:false,name:'Touchscreen Knit Winter Gloves',category:'Accessories',price:7.99,tag:'NEW',images:['/kadibia-site-/images/touchscreen-knit-winter-gloves-1.webp'],description:'Touchscreen knit winter gloves. Full-finger warm gloves for phone use.',details:'Cotton and acrylic.',colors:['Assorted'],sizes:['One size']},
+{id:'plush-cat-ear-earmuffs',sample:false,name:'Plush Cat-Ear Earmuffs',category:'Accessories',price:6.49,tag:'NEW',images:['/kadibia-site-/images/plush-cat-ear-earmuffs-1.webp'],description:'Plush cat-ear faux fur earmuffs. Winter ear warmers.',details:'Plush faux fur.',colors:['Assorted'],sizes:['One size']},
+{id:'blue-light-blocking-cat-eye-glasses',sample:false,name:'Blue-Light Cat-Eye Glasses',category:'Accessories',price:8.49,tag:'NEW',images:['/kadibia-site-/images/blue-light-blocking-cat-eye-glasses-1.webp'],description:'Blue-light blocking cat-eye glasses. Retro optical frames.',details:'Alloy frame, plastic lenses.',colors:['Assorted'],sizes:['One size']},
+{id:'rattan-box-handbag',sample:false,name:'Rattan Box Handbag',category:'Bags',price:21.99,tag:'NEW',images:['/kadibia-site-/images/rattan-box-handbag-1.webp'],description:'Rattan box handbag. Square woven straw crossbody bag, handmade beach style.',details:'Woven rattan, polyester lining.',colors:['Assorted'],sizes:['One size']},
+{id:'nylon-crescent-shoulder-bag',sample:false,name:'Nylon Crescent Shoulder Bag',category:'Bags',price:9.99,tag:'NEW',images:['/kadibia-site-/images/nylon-crescent-shoulder-bag-1.webp','/kadibia-site-/images/nylon-crescent-shoulder-bag-2.webp'],description:'Nylon crescent shoulder bag. Mini underarm bag in solid colors.',details:'Nylon.',colors:['Assorted'],sizes:['One size']},
+{id:'initial-letter-necklace',sample:false,name:'Initial Letter Necklace',category:'Jewelry',price:3.49,tag:'NEW',images:['/kadibia-site-/images/initial-letter-necklace-1.webp'],description:'Gold initial letter necklace with cubic zirconia. Choose your letter at checkout.',details:'Copper with cubic zirconia.',colors:['Gold'],sizes:['One size']},
+{id:'crystal-beaded-stretch-bracelet',sample:false,name:'Crystal Beaded Stretch Bracelet',category:'Jewelry',price:12.99,tag:'NEW',images:['/kadibia-site-/images/crystal-beaded-stretch-bracelet-1.webp'],description:'Rhinestone crystal beaded stretch bracelet. Single strand, no clasp.',details:'Glass beads, elastic.',colors:['Assorted'],sizes:['One size']},
+{id:'foldable-fabric-storage-cube-baskets',sample:false,name:'Fabric Storage Cube Baskets',category:'Home',price:11.99,tag:'NEW',images:['/kadibia-site-/images/foldable-fabric-storage-cube-baskets-1.webp'],description:'Foldable fabric storage cube baskets. 30x30x30cm organizers for toys and nursery.',details:'Non-woven fabric.',colors:['Assorted'],sizes:['One size']},
+{id:'battery-led-fairy-string-lights',sample:false,name:'LED Fairy String Lights',category:'Home',price:2.99,tag:'NEW',images:['/kadibia-site-/images/battery-led-fairy-string-lights-1.webp'],description:'Battery LED fairy string lights. 2M waterproof copper wire, 3xAA battery powered.',details:'Copper wire LED.',colors:['Assorted'],sizes:['2M']}
 ];
 
 /* ================= SAMPLE PRODUCTS — hidden from the live shop =================
