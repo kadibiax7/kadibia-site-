@@ -42,6 +42,14 @@ const STRIPE_LINKS = {
   'kandra-canvas-tote-bag': 'https://buy.stripe.com/REPLACE_ME_kandra-canvas-tote-bag',
   'ustar-heart-crystal-drop-earrings': 'https://buy.stripe.com/REPLACE_ME_ustar-heart-crystal-drop-earrings',
   'lioumo-round-polarized-sunglasses': 'https://buy.stripe.com/REPLACE_ME_lioumo-round-polarized-sunglasses',
+  '12pcs-eye-shadow-blush-makeup-brush-set': 'https://buy.stripe.com/REPLACE_ME_12pcs-eye-shadow-blush-makeup-brush-set',
+  '100g-amino-acid-gentle-facial-cleanser': 'https://buy.stripe.com/REPLACE_ME_100g-amino-acid-gentle-facial-cleanser',
+  'moisturizing-lip-balm-set-4pcs': 'https://buy.stripe.com/REPLACE_ME_moisturizing-lip-balm-set-4pcs',
+  'xeijayi-6pcs-gel-nail-polish-set': 'https://buy.stripe.com/REPLACE_ME_xeijayi-6pcs-gel-nail-polish-set',
+  '4-pack-crystal-glass-nail-file-kit': 'https://buy.stripe.com/REPLACE_ME_4-pack-crystal-glass-nail-file-kit',
+  'satin-hairband-scarf': 'https://buy.stripe.com/REPLACE_ME_satin-hairband-scarf',
+  'pu-leather-crossbody-bag': 'https://buy.stripe.com/REPLACE_ME_pu-leather-crossbody-bag',
+  'universal-phone-lanyard-crossbody': 'https://buy.stripe.com/REPLACE_ME_universal-phone-lanyard-crossbody',
 };
 
 /* ----------------------------------------------------------------------------
@@ -101,6 +109,15 @@ const products=[
 {id:'kandra-canvas-tote-bag',sample:false,name:'KANDRA Canvas Tote Bag',category:'Bags',price:24.99,tag:'NEW',images:['/kadibia-site-/images/kandra-canvas-tote-bag-1.webp'],description:'Large-capacity canvas tote bag. Cotton with zipper closure. Fits daily essentials, groceries, or books.',details:'Canvas cotton. Spot clean.',colors:['Natural','Print'],sizes:['One size']},
 {id:'ustar-heart-crystal-drop-earrings',sample:false,name:'Heart Crystal Drop Earrings',category:'Jewelry',price:14.99,tag:'NEW',images:['/kadibia-site-/images/ustar-heart-crystal-drop-earrings-1.webp'],description:'Heart-shaped crystal drop earrings. Zinc alloy setting.',details:'Zinc alloy with crystal stones.',colors:['Pearl','Purple','Red'],sizes:['One size']},
 {id:'lioumo-round-polarized-sunglasses',sample:false,name:'Round Polarized Sunglasses',category:'Accessories',price:24.99,tag:'NEW',images:['/kadibia-site-/images/lioumo-round-polarized-sunglasses-1.webp'],description:'Round polarized sunglasses with UV400 lenses and acetate frame. Unisex.',details:'Acetate frame, polarized UV400 lenses.',colors:['Brown','Black'],sizes:['One size']}
+,
+{id:'12pcs-eye-shadow-blush-makeup-brush-set',sample:false,name:'12-Piece Makeup Brush Set',category:'Beauty',price:24.99,tag:'NEW',images:['/kadibia-site-/images/12pcs-eye-shadow-blush-makeup-brush-set-1.webp'],description:'12-piece eye and face brush set for eyeshadow, blush, powder, foundation, concealer, highlight and blending.',details:'12 brushes. Wash with mild soap and air dry.',colors:['One size'],sizes:['12-piece set']},
+{id:'100g-amino-acid-gentle-facial-cleanser',sample:false,name:'Amino Acid Gentle Facial Cleanser',category:'Beauty',price:16.99,tag:'NEW',images:['/kadibia-site-/images/100g-amino-acid-gentle-facial-cleanser-1.webp','/kadibia-site-/images/100g-amino-acid-gentle-facial-cleanser-2.webp','/kadibia-site-/images/100g-amino-acid-gentle-facial-cleanser-3.webp'],description:'Gentle amino-acid foaming face wash for daily use. 100g tube.',details:'100g. For external use only.',colors:['One size'],sizes:['100g']},
+{id:'moisturizing-lip-balm-set-4pcs',sample:false,name:'Moisturizing Lip Balm Set (4-Piece)',category:'Beauty',price:5.99,tag:'NEW',images:['/kadibia-site-/images/moisturizing-lip-balm-set-4pcs-1.webp','/kadibia-site-/images/moisturizing-lip-balm-set-4pcs-2.webp'],description:'Set of four moisturizing lip balms with a petroleum-jelly base. Keeps lips soft.',details:'4 balms. For external use only.',colors:['One size'],sizes:['4-pack']},
+{id:'xeijayi-6pcs-gel-nail-polish-set',sample:false,name:'Gel Nail Polish Set (6-Piece)',category:'Nails',price:39.99,tag:'NEW',images:['/kadibia-site-/images/xeijayi-6pcs-gel-nail-polish-set-1.webp','/kadibia-site-/images/xeijayi-6pcs-gel-nail-polish-set-2.webp'],description:'Six 15ml soak-off gel nail polishes for DIY salon manicures. Requires a UV/LED lamp (not included) to cure.',details:'6 x 15ml. UV/LED lamp required, not included.',colors:['Assorted'],sizes:['6-pack']},
+{id:'4-pack-crystal-glass-nail-file-kit',sample:false,name:'Crystal Glass Nail File Kit (4-Pack)',category:'Nails',price:14.99,tag:'NEW',images:['/kadibia-site-/images/4-pack-crystal-glass-nail-file-kit-1.webp'],description:'Four double-sided crystal glass nail files with a protective case. Reusable and washable.',details:'Glass files. Rinse clean.',colors:['One size'],sizes:['4-pack']},
+{id:'satin-hairband-scarf',sample:false,name:'Satin Hairband Scarf',category:'Accessories',price:7.99,tag:'NEW',images:['/kadibia-site-/images/satin-hairband-scarf-1.webp','/kadibia-site-/images/satin-hairband-scarf-2.webp','/kadibia-site-/images/satin-hairband-scarf-3.webp'],description:'Long satin hairband scarf. Wear as a headband, hair tie, wrist band or neck scarf.',details:'Satin.',colors:['Assorted'],sizes:['One size']},
+{id:'pu-leather-crossbody-bag',sample:false,name:'PU Leather Crossbody Bag',category:'Bags',price:17.99,tag:'NEW',images:['/kadibia-site-/images/pu-leather-crossbody-bag-1.webp'],description:'Small solid-color crossbody bag in PU leather. Shoulder or crossbody wear.',details:'PU leather.',colors:['Assorted'],sizes:['One size']},
+{id:'universal-phone-lanyard-crossbody',sample:false,name:'Universal Phone Lanyard',category:'Accessories',price:4.49,tag:'NEW',images:['/kadibia-site-/images/universal-phone-lanyard-crossbody-1.webp','/kadibia-site-/images/universal-phone-lanyard-crossbody-2.webp'],description:'Adjustable crossbody phone lanyard with universal patch. Fits most phone cases.',details:'Polyester strap with adhesive patch.',colors:['Assorted'],sizes:['One size']}
 ];
 
 /* ================= SAMPLE PRODUCTS — hidden from the live shop =================
