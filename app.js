@@ -60,6 +60,11 @@ const STRIPE_LINKS = {
   'coin-chain-necklace-2pcs': 'https://buy.stripe.com/REPLACE_ME_coin-chain-necklace-2pcs',
   'small-hoop-earrings-pair': 'https://buy.stripe.com/REPLACE_ME_small-hoop-earrings-pair',
   'gold-chain-anklets-3pcs': 'https://buy.stripe.com/REPLACE_ME_gold-chain-anklets-3pcs',
+  'natural-jade-roller-gua-sha-set': 'https://buy.stripe.com/REPLACE_ME_natural-jade-roller-gua-sha-set',
+  'maange-4pcs-makeup-sponge-set': 'https://buy.stripe.com/REPLACE_ME_maange-4pcs-makeup-sponge-set',
+  '3pcs-portable-eyebrow-trimmer-kit': 'https://buy.stripe.com/REPLACE_ME_3pcs-portable-eyebrow-trimmer-kit',
+  '24pcs-wine-red-press-on-nails': 'https://buy.stripe.com/REPLACE_ME_24pcs-wine-red-press-on-nails',
+  'nail-nutrition-cuticle-oil-pen-2pcs': 'https://buy.stripe.com/REPLACE_ME_nail-nutrition-cuticle-oil-pen-2pcs',
 };
 
 /* ----------------------------------------------------------------------------
@@ -140,6 +145,12 @@ const products=[
 {id:'coin-chain-necklace-2pcs',sample:false,name:'Coin Chain Necklace (2-Piece Set)',category:'Jewelry',price:6.99,tag:'NEW',images:['/kadibia-site-/images/coin-chain-necklace-2pcs-1.webp','/kadibia-site-/images/coin-chain-necklace-2pcs-2.webp'],description:'Two-piece gold-color coin chain necklace set with pearl bead choker and layered pendant.',details:'Zinc alloy.',colors:['Gold'],sizes:['One size']},
 {id:'small-hoop-earrings-pair',sample:false,name:'Small Hoop Earrings',category:'Jewelry',price:7.99,tag:'NEW',images:['/kadibia-site-/images/small-hoop-earrings-pair-1.webp','/kadibia-site-/images/small-hoop-earrings-pair-2.webp'],description:'Minimalist small hoop earrings, 1.8cm. Lead and nickel free per supplier.',details:'Zinc alloy, lead and nickel free.',colors:['Gold','Silver'],sizes:['One size']},
 {id:'gold-chain-anklets-3pcs',sample:false,name:'Gold Chain Anklets (3-Piece Set)',category:'Jewelry',price:10.99,tag:'NEW',images:['/kadibia-site-/images/gold-chain-anklets-3pcs-1.webp','/kadibia-site-/images/gold-chain-anklets-3pcs-2.webp'],description:'Set of three gold-color chain anklets. Beach-ready foot jewelry.',details:'Copper alloy.',colors:['Gold'],sizes:['One size']}
+,
+{id:'natural-jade-roller-gua-sha-set',sample:false,name:'Jade Roller and Gua Sha Set',category:'Beauty',price:24.99,tag:'NEW',images:['/kadibia-site-/images/natural-jade-roller-gua-sha-set-1.webp','/kadibia-site-/images/natural-jade-roller-gua-sha-set-2.webp','/kadibia-site-/images/natural-jade-roller-gua-sha-set-3.webp'],description:'Natural jade facial roller and gua sha stone scraper set. A classic facial massage tool pairing.',details:'Jade stone. Wipe clean.',colors:['One size'],sizes:['2-piece set']},
+{id:'maange-4pcs-makeup-sponge-set',sample:false,name:'Makeup Sponge Set (4-Piece)',category:'Beauty',price:14.99,tag:'NEW',images:['/kadibia-site-/images/maange-4pcs-makeup-sponge-set-1.webp'],description:'Four hydrophilic polyurethane makeup sponges for foundation, concealer, blending and powder.',details:'Polyurethane. Wash and air dry.',colors:['One size'],sizes:['4-pack']},
+{id:'3pcs-portable-eyebrow-trimmer-kit',sample:false,name:'Eyebrow Trimmer Kit (3-Piece)',category:'Beauty',price:7.99,tag:'NEW',images:['/kadibia-site-/images/3pcs-portable-eyebrow-trimmer-kit-1.webp'],description:'Three-piece non-electric eyebrow kit: razor, scissors and comb/shaper. ABS resin.',details:'ABS resin, non-electric.',colors:['One size'],sizes:['3-pack']},
+{id:'24pcs-wine-red-press-on-nails',sample:false,name:'Wine Red Press-On Nails (24-Piece)',category:'Nails',price:5.99,tag:'NEW',images:['/kadibia-site-/images/24pcs-wine-red-press-on-nails-1.webp'],description:'Twenty-four wine red press-on nails with glue included. Long round-head acrylic tips.',details:'Acrylic. Glue included.',colors:['Wine Red'],sizes:['24-pack']},
+{id:'nail-nutrition-cuticle-oil-pen-2pcs',sample:false,name:'Cuticle Oil Pen (2-Pack)',category:'Nails',price:6.99,tag:'NEW',images:['/kadibia-site-/images/nail-nutrition-cuticle-oil-pen-2pcs-1.webp'],description:'Two cuticle and nail care oil pens in fruit fragrances. Twist-pen applicator.',details:'Oil-based. For external use only.',colors:['Assorted'],sizes:['2-pack']}
 ];
 
 /* ================= SAMPLE PRODUCTS — hidden from the live shop =================
