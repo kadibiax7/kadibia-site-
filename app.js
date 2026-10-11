@@ -50,6 +50,11 @@ const STRIPE_LINKS = {
   'satin-hairband-scarf': 'https://buy.stripe.com/REPLACE_ME_satin-hairband-scarf',
   'pu-leather-crossbody-bag': 'https://buy.stripe.com/REPLACE_ME_pu-leather-crossbody-bag',
   'universal-phone-lanyard-crossbody': 'https://buy.stripe.com/REPLACE_ME_universal-phone-lanyard-crossbody',
+  'aossviao-slim-plain-long-sleeve-tee': 'https://buy.stripe.com/REPLACE_ME_aossviao-slim-plain-long-sleeve-tee',
+  'off-shoulder-ruffle-chiffon-blouse': 'https://buy.stripe.com/REPLACE_ME_off-shoulder-ruffle-chiffon-blouse',
+  'leopard-print-biker-shorts': 'https://buy.stripe.com/REPLACE_ME_leopard-print-biker-shorts',
+  'graffiti-lace-up-canvas-sneakers': 'https://buy.stripe.com/REPLACE_ME_graffiti-lace-up-canvas-sneakers',
+  'eilyken-lace-up-mesh-stiletto-sandals': 'https://buy.stripe.com/REPLACE_ME_eilyken-lace-up-mesh-stiletto-sandals',
 };
 
 /* ----------------------------------------------------------------------------
@@ -118,6 +123,12 @@ const products=[
 {id:'satin-hairband-scarf',sample:false,name:'Satin Hairband Scarf',category:'Accessories',price:7.99,tag:'NEW',images:['/kadibia-site-/images/satin-hairband-scarf-1.webp','/kadibia-site-/images/satin-hairband-scarf-2.webp','/kadibia-site-/images/satin-hairband-scarf-3.webp'],description:'Long satin hairband scarf. Wear as a headband, hair tie, wrist band or neck scarf.',details:'Satin.',colors:['Assorted'],sizes:['One size']},
 {id:'pu-leather-crossbody-bag',sample:false,name:'PU Leather Crossbody Bag',category:'Bags',price:17.99,tag:'NEW',images:['/kadibia-site-/images/pu-leather-crossbody-bag-1.webp'],description:'Small solid-color crossbody bag in PU leather. Shoulder or crossbody wear.',details:'PU leather.',colors:['Assorted'],sizes:['One size']},
 {id:'universal-phone-lanyard-crossbody',sample:false,name:'Universal Phone Lanyard',category:'Accessories',price:4.49,tag:'NEW',images:['/kadibia-site-/images/universal-phone-lanyard-crossbody-1.webp','/kadibia-site-/images/universal-phone-lanyard-crossbody-2.webp'],description:'Adjustable crossbody phone lanyard with universal patch. Fits most phone cases.',details:'Polyester strap with adhesive patch.',colors:['Assorted'],sizes:['One size']}
+,
+{id:'aossviao-slim-plain-long-sleeve-tee',sample:false,name:'Slim Long-Sleeve Cotton Tee',category:'Clothing',price:24,tag:'NEW',images:['/kadibia-site-/images/aossviao-slim-plain-long-sleeve-tee-1.webp','/kadibia-site-/images/aossviao-slim-plain-long-sleeve-tee-2.webp'],description:'Slim-fit long-sleeve cotton tee with stretch. Note: the fabric is thin and slightly sheer, best layered or worn with a cami underneath.',details:'Cotton with stretch. Machine wash cold.',colors:['Purple','Black','White','Gray','Orange'],sizes:['One size']},
+{id:'off-shoulder-ruffle-chiffon-blouse',sample:false,name:'Off-Shoulder Ruffle Chiffon Blouse',category:'Clothing',price:39.5,tag:'NEW',images:['/kadibia-site-/images/off-shoulder-ruffle-chiffon-blouse-1.webp','/kadibia-site-/images/off-shoulder-ruffle-chiffon-blouse-2.webp'],description:'Elegant off-shoulder chiffon blouse with ruffle trim and puff sleeves. White.',details:'Polyester chiffon. Hand wash recommended.',colors:['White'],sizes:['One size']},
+{id:'leopard-print-biker-shorts',sample:false,name:'Leopard Print Biker Shorts',category:'Clothing',price:8.99,tag:'NEW',images:['/kadibia-site-/images/leopard-print-biker-shorts-1.webp','/kadibia-site-/images/leopard-print-biker-shorts-2.webp'],description:'High-waist leopard print biker shorts in stretchy polyester and spandex. Made for workouts and athleisure.',details:'Polyester and spandex. Machine wash cold.',colors:['Leopard'],sizes:['S','M','L','XL']},
+{id:'graffiti-lace-up-canvas-sneakers',sample:false,name:'Graffiti Lace-Up Canvas Sneakers',category:'Shoes',price:23.5,tag:'NEW',images:['/kadibia-site-/images/graffiti-lace-up-canvas-sneakers-1.webp','/kadibia-site-/images/graffiti-lace-up-canvas-sneakers-2.webp'],description:'Casual lace-up canvas sneakers with graffiti print. Breathable mesh lining and EVA insole. True to size.',details:'Canvas upper, EVA insole.',colors:['Black','Red','Gray'],sizes:['35','36','37','38','39','40','41','42','43','44']},
+{id:'eilyken-lace-up-mesh-stiletto-sandals',sample:false,name:'Lace-Up Mesh Stiletto Sandals',category:'Shoes',price:29.5,tag:'NEW',images:['/kadibia-site-/images/eilyken-lace-up-mesh-stiletto-sandals-1.webp','/kadibia-site-/images/eilyken-lace-up-mesh-stiletto-sandals-2.webp'],description:'Strappy lace-up stiletto sandals with mesh panels and square toe. High heel (5-8cm).',details:'PU and mesh upper, rubber outsole.',colors:['White','Black'],sizes:['35','36','37','38','39','40','41','42']}
 ];
 
 /* ================= SAMPLE PRODUCTS — hidden from the live shop =================
