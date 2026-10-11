@@ -65,6 +65,11 @@ const STRIPE_LINKS = {
   '3pcs-portable-eyebrow-trimmer-kit': 'https://buy.stripe.com/REPLACE_ME_3pcs-portable-eyebrow-trimmer-kit',
   '24pcs-wine-red-press-on-nails': 'https://buy.stripe.com/REPLACE_ME_24pcs-wine-red-press-on-nails',
   'nail-nutrition-cuticle-oil-pen-2pcs': 'https://buy.stripe.com/REPLACE_ME_nail-nutrition-cuticle-oil-pen-2pcs',
+  'satin-silk-sleep-bonnet': 'https://buy.stripe.com/REPLACE_ME_satin-silk-sleep-bonnet',
+  'wide-tooth-detangling-comb': 'https://buy.stripe.com/REPLACE_ME_wide-tooth-detangling-comb',
+  'hair-oil-root-comb-applicator-bottle-2pcs': 'https://buy.stripe.com/REPLACE_ME_hair-oil-root-comb-applicator-bottle-2pcs',
+  'exfoliating-hemp-glove-mitt': 'https://buy.stripe.com/REPLACE_ME_exfoliating-hemp-glove-mitt',
+  'shea-butter-moist-body-lotion-250g': 'https://buy.stripe.com/REPLACE_ME_shea-butter-moist-body-lotion-250g',
 };
 
 /* ----------------------------------------------------------------------------
@@ -151,6 +156,12 @@ const products=[
 {id:'3pcs-portable-eyebrow-trimmer-kit',sample:false,name:'Eyebrow Trimmer Kit (3-Piece)',category:'Beauty',price:7.99,tag:'NEW',images:['/kadibia-site-/images/3pcs-portable-eyebrow-trimmer-kit-1.webp'],description:'Three-piece non-electric eyebrow kit: razor, scissors and comb/shaper. ABS resin.',details:'ABS resin, non-electric.',colors:['One size'],sizes:['3-pack']},
 {id:'24pcs-wine-red-press-on-nails',sample:false,name:'Wine Red Press-On Nails (24-Piece)',category:'Nails',price:5.99,tag:'NEW',images:['/kadibia-site-/images/24pcs-wine-red-press-on-nails-1.webp'],description:'Twenty-four wine red press-on nails with glue included. Long round-head acrylic tips.',details:'Acrylic. Glue included.',colors:['Wine Red'],sizes:['24-pack']},
 {id:'nail-nutrition-cuticle-oil-pen-2pcs',sample:false,name:'Cuticle Oil Pen (2-Pack)',category:'Nails',price:6.99,tag:'NEW',images:['/kadibia-site-/images/nail-nutrition-cuticle-oil-pen-2pcs-1.webp'],description:'Two cuticle and nail care oil pens in fruit fragrances. Twist-pen applicator.',details:'Oil-based. For external use only.',colors:['Assorted'],sizes:['2-pack']}
+,
+{id:'satin-silk-sleep-bonnet',sample:false,name:'Satin Silk Sleep Bonnet',category:'Hair',price:7.99,tag:'NEW',images:['/kadibia-site-/images/satin-silk-sleep-bonnet-1.webp'],description:'Extra-large satin sleep bonnet that protects hair overnight. Soft satin lining, comfortable fit.',details:'Satin.',colors:['Assorted'],sizes:['One size']},
+{id:'wide-tooth-detangling-comb',sample:false,name:'Wide-Tooth Detangling Comb',category:'Hair',price:5.99,tag:'NEW',images:['/kadibia-site-/images/wide-tooth-detangling-comb-1.webp','/kadibia-site-/images/wide-tooth-detangling-comb-2.webp'],description:'Tortoise-style wide-tooth comb for detangling, great for curly hair. No-static acetate.',details:'Acetate.',colors:['Tortoise'],sizes:['One size']},
+{id:'hair-oil-root-comb-applicator-bottle-2pcs',sample:false,name:'Hair Oil Root Comb Applicator Bottles (2-Pack)',category:'Hair',price:7.99,tag:'NEW',images:['/kadibia-site-/images/hair-oil-root-comb-applicator-bottle-2pcs-1.webp','/kadibia-site-/images/hair-oil-root-comb-applicator-bottle-2pcs-2.webp'],description:'Two applicator bottles with root-comb tips for oiling the scalp and dyeing roots evenly.',details:'Plastic bottles with comb applicator.',colors:['One size'],sizes:['2-pack']},
+{id:'exfoliating-hemp-glove-mitt',sample:false,name:'Exfoliating Hemp Glove Mitt',category:'Body',price:6.99,tag:'NEW',images:['/kadibia-site-/images/exfoliating-hemp-glove-mitt-1.webp','/kadibia-site-/images/exfoliating-hemp-glove-mitt-2.webp'],description:'Double-sided exfoliating hemp bath mitt. Scrubs and invigorates skin in the shower.',details:'Hemp fiber. Rinse and air dry.',colors:['One size'],sizes:['One size']},
+{id:'shea-butter-moist-body-lotion-250g',sample:false,name:'Shea Butter Moisturizing Body Lotion',category:'Body',price:27.99,tag:'NEW',images:['/kadibia-site-/images/shea-butter-moist-body-lotion-250g-1.webp','/kadibia-site-/images/shea-butter-moist-body-lotion-250g-2.webp'],description:'Moisturizing body lotion with shea butter and olive oil. 250g jar for daily use on dry skin.',details:'250g. Shea butter, hydrogenated olive oil. For external use only.',colors:['One size'],sizes:['250g']}
 ];
 
 /* ================= SAMPLE PRODUCTS — hidden from the live shop =================
