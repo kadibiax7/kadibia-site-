@@ -227,6 +227,10 @@ const STRIPE_LINKS = {
   'plaid-long-sleeve-pajama-set': 'https://buy.stripe.com/REPLACE_ME_plaid-long-sleeve-pajama-set',
   'ribbed-knit-long-sleeve-pajama-set': 'https://buy.stripe.com/REPLACE_ME_ribbed-knit-long-sleeve-pajama-set',
   'cotton-nightgown': 'https://buy.stripe.com/REPLACE_ME_cotton-nightgown',
+  'dotifi-geometric-pendant-necklace': 'https://buy.stripe.com/REPLACE_ME_dotifi-geometric-pendant-necklace',
+  'winter-infinity-loop-scarf': 'https://buy.stripe.com/REPLACE_ME_winter-infinity-loop-scarf',
+  'kitchen-mug-holder-rack-6-hooks': 'https://buy.stripe.com/REPLACE_ME_kitchen-mug-holder-rack-6-hooks',
+  'fabric-hanging-storage-organizer': 'https://buy.stripe.com/REPLACE_ME_fabric-hanging-storage-organizer',
 };
 
 /* ----------------------------------------------------------------------------
@@ -487,6 +491,11 @@ const products=[
 {id:'plaid-long-sleeve-pajama-set',sample:false,name:'Plaid Long-Sleeve Pajama Set',category:'Sleepwear',price:27.99,tag:'NEW',images:['/kadibia-site-/images/plaid-long-sleeve-pajama-set-1.webp'],description:'Plaid long-sleeve pajama set. Two-piece polyester sleepwear.',details:'Polyester.',colors:['Assorted'],sizes:['S','M','L','XL']},
 {id:'ribbed-knit-long-sleeve-pajama-set',sample:false,name:'Ribbed Knit Pajama Set',category:'Sleepwear',price:32.99,tag:'NEW',images:['/kadibia-site-/images/ribbed-knit-long-sleeve-pajama-set-1.webp'],description:'Ribbed knit long-sleeve pajama set. Pullover top plus full-length pants.',details:'Cotton and polyester ribbed knit.',colors:['Assorted'],sizes:['S','M','L','XL']},
 {id:'cotton-nightgown',sample:false,name:'Cotton Nightgown',category:'Sleepwear',price:23.99,tag:'NEW',images:['/kadibia-site-/images/cotton-nightgown-1.webp'],description:'Cotton nightgown with short sleeves. Loose knee-length fit, sizes M-5XL.',details:'Cotton.',colors:['Assorted'],sizes:['M','L','XL','XXL']}
+,
+{id:'dotifi-geometric-pendant-necklace',sample:false,name:'Geometric Pendant Necklace',category:'Jewelry',price:3.49,tag:'NEW',images:['/kadibia-site-/images/dotifi-geometric-pendant-necklace-1.webp'],description:'Geometric pendant long chain necklace in stainless steel. Gold and silver colors.',details:'Stainless steel.',colors:['Gold','Silver'],sizes:['One size']},
+{id:'winter-infinity-loop-scarf',sample:false,name:'Winter Infinity Loop Scarf',category:'Accessories',price:2.99,tag:'NEW',images:['/kadibia-site-/images/winter-infinity-loop-scarf-1.webp'],description:'Winter infinity loop scarf. Soft ring neck warmer.',details:'Polyester.',colors:['Assorted'],sizes:['One size']},
+{id:'kitchen-mug-holder-rack-6-hooks',sample:false,name:'Kitchen Mug Holder Rack',category:'Home',price:6.49,tag:'NEW',images:['/kadibia-site-/images/kitchen-mug-holder-rack-6-hooks-1.webp'],description:'Kitchen mug holder rack with 6 hooks. Hanging coffee cup organizer, iron.',details:'Iron.',colors:['Assorted'],sizes:['One size']},
+{id:'fabric-hanging-storage-organizer',sample:false,name:'Fabric Hanging Storage Organizer',category:'Home',price:9.99,tag:'NEW',images:['/kadibia-site-/images/fabric-hanging-storage-organizer-1.webp'],description:'Fabric hanging storage organizer. Canvas basket with hook, 12L capacity.',details:'Canvas.',colors:['Assorted'],sizes:['One size']}
 ];
 
 /* ================= SAMPLE PRODUCTS — hidden from the live shop =================
