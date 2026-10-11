@@ -83,6 +83,19 @@ const STRIPE_LINKS = {
   'silk-square-scarf-90cm': 'https://buy.stripe.com/REPLACE_ME_silk-square-scarf-90cm',
   'genuine-leather-keychain-wallet': 'https://buy.stripe.com/REPLACE_ME_genuine-leather-keychain-wallet',
   'waterproof-nylon-makeup-bag': 'https://buy.stripe.com/REPLACE_ME_waterproof-nylon-makeup-bag',
+  'pearl-geometric-hair-clips-set': 'https://buy.stripe.com/REPLACE_ME_pearl-geometric-hair-clips-set',
+  'woven-elastic-braided-belt': 'https://buy.stripe.com/REPLACE_ME_woven-elastic-braided-belt',
+  'foldable-wide-brim-straw-sun-hat': 'https://buy.stripe.com/REPLACE_ME_foldable-wide-brim-straw-sun-hat',
+  'silky-satin-scrunchies-6pcs': 'https://buy.stripe.com/REPLACE_ME_silky-satin-scrunchies-6pcs',
+  'mini-pocket-folding-umbrella': 'https://buy.stripe.com/REPLACE_ME_mini-pocket-folding-umbrella',
+  'pu-leather-bucket-shoulder-bag': 'https://buy.stripe.com/REPLACE_ME_pu-leather-bucket-shoulder-bag',
+  'woven-straw-beach-tote': 'https://buy.stripe.com/REPLACE_ME_woven-straw-beach-tote',
+  'holographic-belt-bag': 'https://buy.stripe.com/REPLACE_ME_holographic-belt-bag',
+  'diamond-sequin-evening-clutch': 'https://buy.stripe.com/REPLACE_ME_diamond-sequin-evening-clutch',
+  'beaqueen-flower-tennis-bracelet': 'https://buy.stripe.com/REPLACE_ME_beaqueen-flower-tennis-bracelet',
+  'bohemian-feather-drop-earrings': 'https://buy.stripe.com/REPLACE_ME_bohemian-feather-drop-earrings',
+  'pearl-layered-chain-necklace': 'https://buy.stripe.com/REPLACE_ME_pearl-layered-chain-necklace',
+  'evil-eye-statement-ring': 'https://buy.stripe.com/REPLACE_ME_evil-eye-statement-ring',
 };
 
 /* ----------------------------------------------------------------------------
@@ -191,6 +204,20 @@ const products=[
 {id:'silk-square-scarf-90cm',sample:false,name:'Silk Square Scarf (90cm)',category:'Accessories',price:8.99,tag:'NEW',images:['/kadibia-site-/images/silk-square-scarf-90cm-1.webp'],description:'90x90cm printed square scarf. Wear as a neck scarf, headscarf, hair bandana or shawl.',details:'Silk and polyester blend.',colors:['Assorted'],sizes:['90x90cm']},
 {id:'genuine-leather-keychain-wallet',sample:false,name:'Leather Keychain Wallet',category:'Accessories',price:9.99,tag:'NEW',images:['/kadibia-site-/images/genuine-leather-keychain-wallet-1.webp','/kadibia-site-/images/genuine-leather-keychain-wallet-2.webp'],description:'Genuine cow leather keychain wallet. Holds keys and cards in one compact pouch.',details:'Genuine cow leather (split).',colors:['Assorted'],sizes:['One size']},
 {id:'waterproof-nylon-makeup-bag',sample:false,name:'Waterproof Makeup Bag',category:'Bags',price:11.99,tag:'NEW',images:['/kadibia-site-/images/waterproof-nylon-makeup-bag-1.webp'],description:'Large-capacity waterproof nylon makeup bag. Travel toiletry organizer with zipper closure.',details:'Waterproof nylon.',colors:['Assorted'],sizes:['One size']}
+,
+{id:'pearl-geometric-hair-clips-set',sample:false,name:'Pearl Geometric Hair Clips Set',category:'Accessories',price:2.19,tag:'NEW',images:['/kadibia-site-/images/pearl-geometric-hair-clips-set-1.webp'],description:'Geometric hair clips with simulated pearls and crystals. Gold and silver options.',details:'Simulated pearl, crystal, zinc alloy.',colors:['Gold','Silver'],sizes:['One size']},
+{id:'woven-elastic-braided-belt',sample:false,name:'Woven Elastic Braided Belt',category:'Accessories',price:3.99,tag:'NEW',images:['/kadibia-site-/images/woven-elastic-braided-belt-1.webp'],description:'Stretch woven belt with pin buckle. 3.5cm width, comfortable all-day fit.',details:'Knitted canvas webbing, metal buckle.',colors:['Assorted'],sizes:['One size']},
+{id:'foldable-wide-brim-straw-sun-hat',sample:false,name:'Foldable Wide-Brim Straw Sun Hat',category:'Accessories',price:14.99,tag:'NEW',images:['/kadibia-site-/images/foldable-wide-brim-straw-sun-hat-1.webp'],description:'Foldable wide-brim straw sun hat. UV protection for beach and travel.',details:'Straw.',colors:['Assorted'],sizes:['One size']},
+{id:'silky-satin-scrunchies-6pcs',sample:false,name:'Silky Satin Scrunchies (6-Pack)',category:'Accessories',price:6.49,tag:'NEW',images:['/kadibia-site-/images/silky-satin-scrunchies-6pcs-1.webp'],description:'Six silky satin scrunchies in solid colors. Gentle on hair.',details:'Satin with elastic core.',colors:['Assorted'],sizes:['One size']},
+{id:'mini-pocket-folding-umbrella',sample:false,name:'Mini Pocket Folding Umbrella',category:'Accessories',price:17.49,tag:'NEW',images:['/kadibia-site-/images/mini-pocket-folding-umbrella-1.webp'],description:'Compact five-fold pocket umbrella. Anti-UV canopy, rain and wind resistant.',details:'190T pongee canopy, metal frame.',colors:['Assorted'],sizes:['One size']},
+{id:'pu-leather-bucket-shoulder-bag',sample:false,name:'PU Leather Bucket Shoulder Bag',category:'Bags',price:17.00,tag:'NEW',images:['/kadibia-site-/images/pu-leather-bucket-shoulder-bag-1.webp'],description:'Bucket-style shoulder bag in PU leather with rivet detail.',details:'PU leather, polyester lining.',colors:['Assorted'],sizes:['One size']},
+{id:'woven-straw-beach-tote',sample:false,name:'Woven Straw Beach Tote',category:'Bags',price:28.50,tag:'NEW',images:['/kadibia-site-/images/woven-straw-beach-tote-1.webp'],description:'Large-capacity woven straw beach tote with zipper closure.',details:'Straw, polyester lining.',colors:['Natural'],sizes:['One size']},
+{id:'holographic-belt-bag',sample:false,name:'Holographic Belt Bag',category:'Bags',price:9.99,tag:'NEW',images:['/kadibia-site-/images/holographic-belt-bag-1.webp'],description:'Holographic waist bag. Waterproof PU with geometric shine.',details:'Waterproof PU.',colors:['Holographic'],sizes:['One size']},
+{id:'diamond-sequin-evening-clutch',sample:false,name:'Diamond Sequin Evening Clutch',category:'Bags',price:29.00,tag:'NEW',images:['/kadibia-site-/images/diamond-sequin-evening-clutch-1.webp'],description:'Sequin evening clutch with diamond detail. Minaudiere shape with shoulder chain.',details:'Polyester with sequin and diamond decor.',colors:['Assorted'],sizes:['One size']},
+{id:'beaqueen-flower-tennis-bracelet',sample:false,name:'Flower Tennis Bracelet',category:'Jewelry',price:13.99,tag:'NEW',images:['/kadibia-site-/images/beaqueen-flower-tennis-bracelet-1.webp'],description:'Crystal flower tennis bracelet with safety clasp. Multiple stone colors.',details:'Copper with crystal stones. Lead, nickel and cadmium free.',colors:['Blue','Green','White','Rose Red','Purple','Pink'],sizes:['One size']},
+{id:'bohemian-feather-drop-earrings',sample:false,name:'Bohemian Feather Drop Earrings',category:'Jewelry',price:7.49,tag:'NEW',images:['/kadibia-site-/images/bohemian-feather-drop-earrings-1.webp'],description:'Bohemian feather drop earrings with natural stone detail. 11.7cm drop.',details:'Zinc alloy, natural stone, feather.',colors:['Assorted'],sizes:['One size']},
+{id:'pearl-layered-chain-necklace',sample:false,name:'Pearl Layered Chain Necklace',category:'Jewelry',price:12.49,tag:'NEW',images:['/kadibia-site-/images/pearl-layered-chain-necklace-1.webp'],description:'Layered pearl choker with gold-tone chain.',details:'Stainless steel chain, imitation pearl.',colors:['Gold'],sizes:['One size']},
+{id:'evil-eye-statement-ring',sample:false,name:'Evil Eye Statement Ring',category:'Jewelry',price:5.49,tag:'NEW',images:['/kadibia-site-/images/evil-eye-statement-ring-1.webp'],description:'Stainless steel evil eye ring in gold and silver.',details:'Stainless steel.',colors:['Gold','Silver'],sizes:['One size']}
 ];
 
 /* ================= SAMPLE PRODUCTS — hidden from the live shop =================
