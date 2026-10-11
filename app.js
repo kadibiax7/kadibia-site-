@@ -70,6 +70,11 @@ const STRIPE_LINKS = {
   'hair-oil-root-comb-applicator-bottle-2pcs': 'https://buy.stripe.com/REPLACE_ME_hair-oil-root-comb-applicator-bottle-2pcs',
   'exfoliating-hemp-glove-mitt': 'https://buy.stripe.com/REPLACE_ME_exfoliating-hemp-glove-mitt',
   'shea-butter-moist-body-lotion-250g': 'https://buy.stripe.com/REPLACE_ME_shea-butter-moist-body-lotion-250g',
+  'modal-pajama-shorts-set': 'https://buy.stripe.com/REPLACE_ME_modal-pajama-shorts-set',
+  'satin-kimono-robe': 'https://buy.stripe.com/REPLACE_ME_satin-kimono-robe',
+  'freshwater-pearl-stud-earrings': 'https://buy.stripe.com/REPLACE_ME_freshwater-pearl-stud-earrings',
+  'bohemia-charm-bracelet-set-5pcs': 'https://buy.stripe.com/REPLACE_ME_bohemia-charm-bracelet-set-5pcs',
+  'adjustable-toe-ring-set': 'https://buy.stripe.com/REPLACE_ME_adjustable-toe-ring-set',
 };
 
 /* ----------------------------------------------------------------------------
@@ -162,6 +167,12 @@ const products=[
 {id:'hair-oil-root-comb-applicator-bottle-2pcs',sample:false,name:'Hair Oil Root Comb Applicator Bottles (2-Pack)',category:'Hair',price:7.99,tag:'NEW',images:['/kadibia-site-/images/hair-oil-root-comb-applicator-bottle-2pcs-1.webp','/kadibia-site-/images/hair-oil-root-comb-applicator-bottle-2pcs-2.webp'],description:'Two applicator bottles with root-comb tips for oiling the scalp and dyeing roots evenly.',details:'Plastic bottles with comb applicator.',colors:['One size'],sizes:['2-pack']},
 {id:'exfoliating-hemp-glove-mitt',sample:false,name:'Exfoliating Hemp Glove Mitt',category:'Body',price:6.99,tag:'NEW',images:['/kadibia-site-/images/exfoliating-hemp-glove-mitt-1.webp','/kadibia-site-/images/exfoliating-hemp-glove-mitt-2.webp'],description:'Double-sided exfoliating hemp bath mitt. Scrubs and invigorates skin in the shower.',details:'Hemp fiber. Rinse and air dry.',colors:['One size'],sizes:['One size']},
 {id:'shea-butter-moist-body-lotion-250g',sample:false,name:'Shea Butter Moisturizing Body Lotion',category:'Body',price:27.99,tag:'NEW',images:['/kadibia-site-/images/shea-butter-moist-body-lotion-250g-1.webp','/kadibia-site-/images/shea-butter-moist-body-lotion-250g-2.webp'],description:'Moisturizing body lotion with shea butter and olive oil. 250g jar for daily use on dry skin.',details:'250g. Shea butter, hydrogenated olive oil. For external use only.',colors:['One size'],sizes:['250g']}
+,
+{id:'modal-pajama-shorts-set',sample:false,name:'Modal Pajama Shorts Set',category:'Sleepwear',price:36.99,tag:'NEW',images:['/kadibia-site-/images/modal-pajama-shorts-set-1.webp','/kadibia-site-/images/modal-pajama-shorts-set-2.webp'],description:'Modal pajama set with short-sleeve top and shorts. Soft and breathable; XXXL runs snug per buyer review.',details:'Modal. Machine wash cold.',colors:['Assorted'],sizes:['S','M','L','XL','XXL','XXXL']},
+{id:'satin-kimono-robe',sample:false,name:'Satin Kimono Robe',category:'Sleepwear',price:59.99,tag:'NEW',images:['/kadibia-site-/images/satin-kimono-robe-1.webp'],description:'Knee-length satin kimono robe with full sleeves. Silky and lightweight.',details:'Satin.',colors:['Assorted'],sizes:['One size']},
+{id:'freshwater-pearl-stud-earrings',sample:false,name:'Freshwater Pearl Stud Earrings',category:'Jewelry',price:9.99,tag:'NEW',images:['/kadibia-site-/images/freshwater-pearl-stud-earrings-1.webp'],description:'Genuine 8mm freshwater pearl studs in white and pink, set in 925 sterling silver.',details:'Freshwater pearls, 925 sterling silver.',colors:['White','Pink'],sizes:['One size']},
+{id:'bohemia-charm-bracelet-set-5pcs',sample:false,name:'Bohemia Charm Bracelet Set (5-Piece)',category:'Jewelry',price:5.99,tag:'NEW',images:['/kadibia-site-/images/bohemia-charm-bracelet-set-5pcs-1.webp','/kadibia-site-/images/bohemia-charm-bracelet-set-5pcs-2.webp'],description:'Five gold-color charm bracelets with moon, crystal and geometric charms.',details:'Zinc alloy with crystal charms.',colors:['Gold'],sizes:['One size']},
+{id:'adjustable-toe-ring-set',sample:false,name:'Adjustable Toe Ring Set',category:'Jewelry',price:6.99,tag:'NEW',images:['/kadibia-site-/images/adjustable-toe-ring-set-1.webp'],description:'Adjustable open-band toe rings with heart pattern. Fits most.',details:'Copper alloy.',colors:['Assorted'],sizes:['One size']}
 ];
 
 /* ================= SAMPLE PRODUCTS — hidden from the live shop =================
