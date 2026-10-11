@@ -216,6 +216,17 @@ const STRIPE_LINKS = {
   'mango-peel-off-hand-mask': 'https://buy.stripe.com/REPLACE_ME_mango-peel-off-hand-mask',
   'exfoliating-gel-scrub-rosalind': 'https://buy.stripe.com/REPLACE_ME_exfoliating-gel-scrub-rosalind',
   'exfoliating-nylon-bath-towel': 'https://buy.stripe.com/REPLACE_ME_exfoliating-nylon-bath-towel',
+  'polka-dot-tea-length-swing-dress': 'https://buy.stripe.com/REPLACE_ME_polka-dot-tea-length-swing-dress',
+  'ribbed-knit-bodycon-midi-dress': 'https://buy.stripe.com/REPLACE_ME_ribbed-knit-bodycon-midi-dress',
+  'linen-blend-shirt-dress': 'https://buy.stripe.com/REPLACE_ME_linen-blend-shirt-dress',
+  'corduroy-overall-pinafore-dress': 'https://buy.stripe.com/REPLACE_ME_corduroy-overall-pinafore-dress',
+  'celmia-lantern-sleeve-peplum-blouse': 'https://buy.stripe.com/REPLACE_ME_celmia-lantern-sleeve-peplum-blouse',
+  'womens-plaid-brushed-flannel-shirt': 'https://buy.stripe.com/REPLACE_ME_womens-plaid-brushed-flannel-shirt',
+  'oumengka-high-waist-corduroy-wide-leg-pants': 'https://buy.stripe.com/REPLACE_ME_oumengka-high-waist-corduroy-wide-leg-pants',
+  'womens-big-pockets-cargo-jogger-pants': 'https://buy.stripe.com/REPLACE_ME_womens-big-pockets-cargo-jogger-pants',
+  'plaid-long-sleeve-pajama-set': 'https://buy.stripe.com/REPLACE_ME_plaid-long-sleeve-pajama-set',
+  'ribbed-knit-long-sleeve-pajama-set': 'https://buy.stripe.com/REPLACE_ME_ribbed-knit-long-sleeve-pajama-set',
+  'cotton-nightgown': 'https://buy.stripe.com/REPLACE_ME_cotton-nightgown',
 };
 
 /* ----------------------------------------------------------------------------
@@ -464,6 +475,18 @@ const products=[
 {id:'mango-peel-off-hand-mask',sample:false,name:'Mango Peel-Off Hand Mask',category:'Body Care',price:7.99,tag:'NEW',images:['/kadibia-site-/images/mango-peel-off-hand-mask-1.webp'],description:'Mango peel-off hand mask, 50g. Moisturizing hand wax mask.',details:'Peel-off hand mask.',colors:['Mango'],sizes:['50g']},
 {id:'exfoliating-gel-scrub-rosalind',sample:false,name:'Exfoliating Gel Scrub',category:'Body Care',price:7.99,tag:'NEW',images:['/kadibia-site-/images/exfoliating-gel-scrub-rosalind-1.webp','/kadibia-site-/images/exfoliating-gel-scrub-rosalind-2.webp'],description:'Exfoliating gel scrub for face and body, 30g tube. Note: travel-size tube.',details:'Exfoliating gel.',colors:['Assorted'],sizes:['30g']},
 {id:'exfoliating-nylon-bath-towel',sample:false,name:'Exfoliating Nylon Bath Towel',category:'Body Care',price:2.99,tag:'NEW',images:['/kadibia-site-/images/exfoliating-nylon-bath-towel-1.webp'],description:'Exfoliating nylon bath towel. Body scrub washcloth.',details:'Nylon fiber mesh.',colors:['Assorted'],sizes:['One size']}
+,
+{id:'polka-dot-tea-length-swing-dress',sample:false,name:'Polka Dot Swing Dress',category:'Clothing',price:32.99,tag:'NEW',images:['/kadibia-site-/images/polka-dot-tea-length-swing-dress-1.webp'],description:'Polka dot tea-length swing dress with puff sleeves and button-up front. High waist cotton.',details:'95% cotton, 5% spandex.',colors:['Assorted'],sizes:['S','M','L','XL']},
+{id:'ribbed-knit-bodycon-midi-dress',sample:false,name:'Ribbed Knit Bodycon Midi Dress',category:'Clothing',price:37.99,tag:'NEW',images:['/kadibia-site-/images/ribbed-knit-bodycon-midi-dress-1.webp'],description:'Ribbed knit bodycon midi dress. Strapless sweater dress.',details:'Polyester, nylon and viscose.',colors:['Assorted'],sizes:['S','M','L','XL']},
+{id:'linen-blend-shirt-dress',sample:false,name:'Linen Blend Shirt Dress',category:'Clothing',price:31.99,tag:'NEW',images:['/kadibia-site-/images/linen-blend-shirt-dress-1.webp'],description:'Linen blend shirt dress with lapel neck and buttons. Casual loose fit, sizes to 5XL.',details:'Cotton linen.',colors:['Assorted'],sizes:['S','M','L','XL','XXL']},
+{id:'corduroy-overall-pinafore-dress',sample:false,name:'Corduroy Overall Pinafore Dress',category:'Clothing',price:27.99,tag:'NEW',images:['/kadibia-site-/images/corduroy-overall-pinafore-dress-1.webp'],description:'Corduroy overall pinafore dress with buckle detail and big pockets. Sleeveless, sizes XL-4XL.',details:'Polyester and nylon.',colors:['Black','Brown'],sizes:['XL','XXL','XXXL','XXXXL']},
+{id:'celmia-lantern-sleeve-peplum-blouse',sample:false,name:'Lantern-Sleeve Peplum Blouse',category:'Clothing',price:27.99,tag:'NEW',images:['/kadibia-site-/images/celmia-lantern-sleeve-peplum-blouse-1.webp'],description:'Peplum blouse with long lantern sleeves and V-neck. Belted casual work top.',details:'Polyester and spandex.',colors:['Sky Blue','White','Black'],sizes:['S','M','L','XL','2XL']},
+{id:'womens-plaid-brushed-flannel-shirt',sample:false,name:'Plaid Brushed Flannel Shirt',category:'Clothing',price:16.99,tag:'NEW',images:['/kadibia-site-/images/womens-plaid-brushed-flannel-shirt-1.webp'],description:'Plaid brushed flannel shirt. 100% cotton, single patch pocket.',details:'100% cotton flannel.',colors:['Assorted'],sizes:['S','M','L','XL']},
+{id:'oumengka-high-waist-corduroy-wide-leg-pants',sample:false,name:'Corduroy Wide-Leg Pants',category:'Clothing',price:36.99,tag:'NEW',images:['/kadibia-site-/images/oumengka-high-waist-corduroy-wide-leg-pants-1.webp'],description:'High-waist corduroy wide-leg pants. Autumn and winter weight.',details:'Cotton, rayon and spandex corduroy.',colors:['Assorted'],sizes:['S','M','L','XL']},
+{id:'womens-big-pockets-cargo-jogger-pants',sample:false,name:'Cargo Jogger Pants',category:'Clothing',price:21.99,tag:'NEW',images:['/kadibia-site-/images/womens-big-pockets-cargo-jogger-pants-1.webp'],description:'Cargo jogger pants with big pockets. Loose streetwear style, mid waist.',details:'Polyester and cotton.',colors:['Black'],sizes:['S','M','L','XL','XXL']},
+{id:'plaid-long-sleeve-pajama-set',sample:false,name:'Plaid Long-Sleeve Pajama Set',category:'Sleepwear',price:27.99,tag:'NEW',images:['/kadibia-site-/images/plaid-long-sleeve-pajama-set-1.webp'],description:'Plaid long-sleeve pajama set. Two-piece polyester sleepwear.',details:'Polyester.',colors:['Assorted'],sizes:['S','M','L','XL']},
+{id:'ribbed-knit-long-sleeve-pajama-set',sample:false,name:'Ribbed Knit Pajama Set',category:'Sleepwear',price:32.99,tag:'NEW',images:['/kadibia-site-/images/ribbed-knit-long-sleeve-pajama-set-1.webp'],description:'Ribbed knit long-sleeve pajama set. Pullover top plus full-length pants.',details:'Cotton and polyester ribbed knit.',colors:['Assorted'],sizes:['S','M','L','XL']},
+{id:'cotton-nightgown',sample:false,name:'Cotton Nightgown',category:'Sleepwear',price:23.99,tag:'NEW',images:['/kadibia-site-/images/cotton-nightgown-1.webp'],description:'Cotton nightgown with short sleeves. Loose knee-length fit, sizes M-5XL.',details:'Cotton.',colors:['Assorted'],sizes:['M','L','XL','XXL']}
 ];
 
 /* ================= SAMPLE PRODUCTS — hidden from the live shop =================
