@@ -201,6 +201,21 @@ const STRIPE_LINKS = {
   'crystal-beaded-stretch-bracelet': 'https://buy.stripe.com/REPLACE_ME_crystal-beaded-stretch-bracelet',
   'foldable-fabric-storage-cube-baskets': 'https://buy.stripe.com/REPLACE_ME_foldable-fabric-storage-cube-baskets',
   'battery-led-fairy-string-lights': 'https://buy.stripe.com/REPLACE_ME_battery-led-fairy-string-lights',
+  'laikou-sakura-face-serum': 'https://buy.stripe.com/REPLACE_ME_laikou-sakura-face-serum',
+  'peach-cream-blush': 'https://buy.stripe.com/REPLACE_ME_peach-cream-blush',
+  'colorful-waterproof-eyeliner-pen': 'https://buy.stripe.com/REPLACE_ME_colorful-waterproof-eyeliner-pen',
+  'hydrating-sheet-mask-10pack': 'https://buy.stripe.com/REPLACE_ME_hydrating-sheet-mask-10pack',
+  'collagen-lip-mask-pack': 'https://buy.stripe.com/REPLACE_ME_collagen-lip-mask-pack',
+  'moroccan-argan-hair-oil-60ml': 'https://buy.stripe.com/REPLACE_ME_moroccan-argan-hair-oil-60ml',
+  'edge-control-comb-double-sided': 'https://buy.stripe.com/REPLACE_ME_edge-control-comb-double-sided',
+  'hair-wax-finishing-stick': 'https://buy.stripe.com/REPLACE_ME_hair-wax-finishing-stick',
+  'velvet-bow-ribbon-scrunchie': 'https://buy.stripe.com/REPLACE_ME_velvet-bow-ribbon-scrunchie',
+  'hair-oil-vitamin-capsules': 'https://buy.stripe.com/REPLACE_ME_hair-oil-vitamin-capsules',
+  'nylon-elastic-hair-bands-50pcs': 'https://buy.stripe.com/REPLACE_ME_nylon-elastic-hair-bands-50pcs',
+  'fruit-hand-cream-wokali': 'https://buy.stripe.com/REPLACE_ME_fruit-hand-cream-wokali',
+  'mango-peel-off-hand-mask': 'https://buy.stripe.com/REPLACE_ME_mango-peel-off-hand-mask',
+  'exfoliating-gel-scrub-rosalind': 'https://buy.stripe.com/REPLACE_ME_exfoliating-gel-scrub-rosalind',
+  'exfoliating-nylon-bath-towel': 'https://buy.stripe.com/REPLACE_ME_exfoliating-nylon-bath-towel',
 };
 
 /* ----------------------------------------------------------------------------
@@ -433,6 +448,22 @@ const products=[
 {id:'crystal-beaded-stretch-bracelet',sample:false,name:'Crystal Beaded Stretch Bracelet',category:'Jewelry',price:12.99,tag:'NEW',images:['/kadibia-site-/images/crystal-beaded-stretch-bracelet-1.webp'],description:'Rhinestone crystal beaded stretch bracelet. Single strand, no clasp.',details:'Glass beads, elastic.',colors:['Assorted'],sizes:['One size']},
 {id:'foldable-fabric-storage-cube-baskets',sample:false,name:'Fabric Storage Cube Baskets',category:'Home',price:11.99,tag:'NEW',images:['/kadibia-site-/images/foldable-fabric-storage-cube-baskets-1.webp'],description:'Foldable fabric storage cube baskets. 30x30x30cm organizers for toys and nursery.',details:'Non-woven fabric.',colors:['Assorted'],sizes:['One size']},
 {id:'battery-led-fairy-string-lights',sample:false,name:'LED Fairy String Lights',category:'Home',price:2.99,tag:'NEW',images:['/kadibia-site-/images/battery-led-fairy-string-lights-1.webp'],description:'Battery LED fairy string lights. 2M waterproof copper wire, 3xAA battery powered.',details:'Copper wire LED.',colors:['Assorted'],sizes:['2M']}
+,
+{id:'laikou-sakura-face-serum',sample:false,name:'Sakura Face Serum',category:'Beauty',price:6.49,tag:'NEW',images:['/kadibia-site-/images/laikou-sakura-face-serum-1.webp','/kadibia-site-/images/laikou-sakura-face-serum-2.webp'],description:'Sakura face serum, 15ml. Glass dropper bottle.',details:'Liquid serum.',colors:['Assorted'],sizes:['15ml']},
+{id:'peach-cream-blush',sample:false,name:'Peach Cream Blush',category:'Beauty',price:3.99,tag:'NEW',images:['/kadibia-site-/images/peach-cream-blush-1.webp'],description:'Peach cream blush. Cheek tint compact.',details:'Cream blush.',colors:['Peach'],sizes:['One size']},
+{id:'colorful-waterproof-eyeliner-pen',sample:false,name:'Waterproof Eyeliner Pen',category:'Beauty',price:4.99,tag:'NEW',images:['/kadibia-site-/images/colorful-waterproof-eyeliner-pen-1.webp'],description:'Colorful waterproof liquid eyeliner pen. 12 colors, matte finish.',details:'Liquid eyeliner.',colors:['Assorted'],sizes:['One size']},
+{id:'hydrating-sheet-mask-10pack',sample:false,name:'Hydrating Sheet Mask (10-Pack)',category:'Beauty',price:12.99,tag:'NEW',images:['/kadibia-site-/images/hydrating-sheet-mask-10pack-1.webp','/kadibia-site-/images/hydrating-sheet-mask-10pack-2.webp'],description:'Ten moisturizing sheet masks, 30g each.',details:'Sheet masks.',colors:['Assorted'],sizes:['10-pack']},
+{id:'collagen-lip-mask-pack',sample:false,name:'Collagen Lip Mask Pack',category:'Beauty',price:14.99,tag:'NEW',images:['/kadibia-site-/images/collagen-lip-mask-pack-1.webp','/kadibia-site-/images/collagen-lip-mask-pack-2.webp'],description:'Crystal collagen lip masks. Hydrating gel patches, 8-10 pack.',details:'Collagen gel.',colors:['Assorted'],sizes:['One size']},
+{id:'moroccan-argan-hair-oil-60ml',sample:false,name:'Moroccan Argan Hair Oil',category:'Hair Care',price:7.99,tag:'NEW',images:['/kadibia-site-/images/moroccan-argan-hair-oil-60ml-1.webp','/kadibia-site-/images/moroccan-argan-hair-oil-60ml-2.webp'],description:'Moroccan argan hair oil, 60ml. For dry hair types.',details:'Argan oil.',colors:['Assorted'],sizes:['60ml']},
+{id:'edge-control-comb-double-sided',sample:false,name:'Edge Control Comb',category:'Hair Care',price:2.49,tag:'NEW',images:['/kadibia-site-/images/edge-control-comb-double-sided-1.webp'],description:'Double-sided edge control hair comb. For edges and eyebrows.',details:'ABS plastic.',colors:['Assorted'],sizes:['One size']},
+{id:'hair-wax-finishing-stick',sample:false,name:'Hair Wax Finishing Stick',category:'Hair Care',price:6.99,tag:'NEW',images:['/kadibia-site-/images/hair-wax-finishing-stick-1.webp','/kadibia-site-/images/hair-wax-finishing-stick-2.webp'],description:'Hair wax finishing stick, 18ml. Smoothing cream for flyaways.',details:'Hair wax.',colors:['Assorted'],sizes:['18ml']},
+{id:'velvet-bow-ribbon-scrunchie',sample:false,name:'Velvet Bow Ribbon Scrunchie',category:'Hair Care',price:2.99,tag:'NEW',images:['/kadibia-site-/images/velvet-bow-ribbon-scrunchie-1.webp'],description:'Black velvet bow ribbon scrunchie. Long elastic hair tie.',details:'Velvet and elastic.',colors:['Black'],sizes:['One size']},
+{id:'hair-oil-vitamin-capsules',sample:false,name:'Hair Oil Vitamin Capsules',category:'Hair Care',price:12.99,tag:'NEW',images:['/kadibia-site-/images/hair-oil-vitamin-capsules-1.webp','/kadibia-site-/images/hair-oil-vitamin-capsules-2.webp'],description:'Hair oil vitamin capsules with moroccan oil. 30 capsules per bottle.',details:'Hair oil capsules.',colors:['Assorted'],sizes:['30 capsules']},
+{id:'nylon-elastic-hair-bands-50pcs',sample:false,name:'Nylon Hair Bands (50-Pack)',category:'Hair Care',price:2.99,tag:'NEW',images:['/kadibia-site-/images/nylon-elastic-hair-bands-50pcs-1.webp'],description:'Fifty black nylon elastic hair bands. Ponytail rubber bands.',details:'Nylon elastic.',colors:['Black'],sizes:['One size']},
+{id:'fruit-hand-cream-wokali',sample:false,name:'Fruit Hand Cream',category:'Body Care',price:6.99,tag:'NEW',images:['/kadibia-site-/images/fruit-hand-cream-wokali-1.webp'],description:'Fruit hand cream in apple, lemon, pear, strawberry, banana, mango and peach scents.',details:'Hand cream.',colors:['Assorted'],sizes:['One size']},
+{id:'mango-peel-off-hand-mask',sample:false,name:'Mango Peel-Off Hand Mask',category:'Body Care',price:7.99,tag:'NEW',images:['/kadibia-site-/images/mango-peel-off-hand-mask-1.webp'],description:'Mango peel-off hand mask, 50g. Moisturizing hand wax mask.',details:'Peel-off hand mask.',colors:['Mango'],sizes:['50g']},
+{id:'exfoliating-gel-scrub-rosalind',sample:false,name:'Exfoliating Gel Scrub',category:'Body Care',price:7.99,tag:'NEW',images:['/kadibia-site-/images/exfoliating-gel-scrub-rosalind-1.webp','/kadibia-site-/images/exfoliating-gel-scrub-rosalind-2.webp'],description:'Exfoliating gel scrub for face and body, 30g tube. Note: travel-size tube.',details:'Exfoliating gel.',colors:['Assorted'],sizes:['30g']},
+{id:'exfoliating-nylon-bath-towel',sample:false,name:'Exfoliating Nylon Bath Towel',category:'Body Care',price:2.99,tag:'NEW',images:['/kadibia-site-/images/exfoliating-nylon-bath-towel-1.webp'],description:'Exfoliating nylon bath towel. Body scrub washcloth.',details:'Nylon fiber mesh.',colors:['Assorted'],sizes:['One size']}
 ];
 
 /* ================= SAMPLE PRODUCTS — hidden from the live shop =================
