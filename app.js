@@ -132,6 +132,21 @@ const STRIPE_LINKS = {
   'foam-donut-bun-maker-2pcs': 'https://buy.stripe.com/REPLACE_ME_foam-donut-bun-maker-2pcs',
   'nail-file-buffer-set-100-180': 'https://buy.stripe.com/REPLACE_ME_nail-file-buffer-set-100-180',
   'loofah-back-scrubber-strap': 'https://buy.stripe.com/REPLACE_ME_loofah-back-scrubber-strap',
+  'rhinestone-paper-clip-pendant-necklace': 'https://buy.stripe.com/REPLACE_ME_rhinestone-paper-clip-pendant-necklace',
+  'blue-zircon-spike-stud-earrings': 'https://buy.stripe.com/REPLACE_ME_blue-zircon-spike-stud-earrings',
+  'v-shape-zircon-stud-earrings': 'https://buy.stripe.com/REPLACE_ME_v-shape-zircon-stud-earrings',
+  'waterdrop-rhinestone-jewelry-set': 'https://buy.stripe.com/REPLACE_ME_waterdrop-rhinestone-jewelry-set',
+  'sea-turtle-shell-beads-anklet': 'https://buy.stripe.com/REPLACE_ME_sea-turtle-shell-beads-anklet',
+  'print-satin-pajama-set-long-sleeve': 'https://buy.stripe.com/REPLACE_ME_print-satin-pajama-set-long-sleeve',
+  'modal-cotton-nightdress': 'https://buy.stripe.com/REPLACE_ME_modal-cotton-nightdress',
+  'cotton-crepe-pajama-set-shorts': 'https://buy.stripe.com/REPLACE_ME_cotton-crepe-pajama-set-shorts',
+  'lolita-lace-pajama-set-shorts': 'https://buy.stripe.com/REPLACE_ME_lolita-lace-pajama-set-shorts',
+  'heatless-curling-rod-headband': 'https://buy.stripe.com/REPLACE_ME_heatless-curling-rod-headband',
+  'fashion-print-satin-scrunchies': 'https://buy.stripe.com/REPLACE_ME_fashion-print-satin-scrunchies',
+  'magic-donut-hair-bun-maker': 'https://buy.stripe.com/REPLACE_ME_magic-donut-hair-bun-maker',
+  'coral-fleece-throw-blanket': 'https://buy.stripe.com/REPLACE_ME_coral-fleece-throw-blanket',
+  'linen-sofa-cushion-cover': 'https://buy.stripe.com/REPLACE_ME_linen-sofa-cushion-cover',
+  'waterproof-linen-table-runner': 'https://buy.stripe.com/REPLACE_ME_waterproof-linen-table-runner',
 };
 
 /* ----------------------------------------------------------------------------
@@ -291,6 +306,22 @@ const products=[
 {id:'foam-donut-bun-maker-2pcs',sample:false,name:'Foam Donut Bun Maker (2-Pack)',category:'Beauty',price:3.49,tag:'NEW',images:['/kadibia-site-/images/foam-donut-bun-maker-2pcs-1.webp','/kadibia-site-/images/foam-donut-bun-maker-2pcs-2.webp'],description:'Two foam donut bun makers, large and small. Hair ring shaper set.',details:'Nylon foam.',colors:['Assorted'],sizes:['One size']},
 {id:'nail-file-buffer-set-100-180',sample:false,name:'Nail File Buffer Set',category:'Beauty',price:5.49,tag:'NEW',images:['/kadibia-site-/images/nail-file-buffer-set-100-180-1.webp'],description:'Professional nail file buffer set, 100/180 grit. Half-moon sanding files.',details:'Sandpaper and acrylic.',colors:['Assorted'],sizes:['One size']},
 {id:'loofah-back-scrubber-strap',sample:false,name:'Loofah Back Scrubber Strap',category:'Beauty',price:2.79,tag:'NEW',images:['/kadibia-site-/images/loofah-back-scrubber-strap-1.webp'],description:'Natural loofah back scrubber strap. Exfoliating bath shower belt.',details:'Natural loofah.',colors:['Assorted'],sizes:['One size']}
+,
+{id:'rhinestone-paper-clip-pendant-necklace',sample:false,name:'Rhinestone Paper Clip Necklace',category:'Jewelry',price:11.99,tag:'NEW',images:['/kadibia-site-/images/rhinestone-paper-clip-pendant-necklace-1.webp','/kadibia-site-/images/rhinestone-paper-clip-pendant-necklace-2.webp'],description:'Gold-tone paper clip chain necklace with rhinestone pendant.',details:'Resin crystal pendant, aluminum chain.',colors:['Gold'],sizes:['One size']},
+{id:'blue-zircon-spike-stud-earrings',sample:false,name:'Blue Zircon Spike Stud Earrings',category:'Jewelry',price:11.99,tag:'NEW',images:['/kadibia-site-/images/blue-zircon-spike-stud-earrings-1.webp','/kadibia-site-/images/blue-zircon-spike-stud-earrings-2.webp'],description:'Blue zircon spike stud earrings in 925 sterling silver.',details:'925 sterling silver, zircon.',colors:['Blue'],sizes:['One size']},
+{id:'v-shape-zircon-stud-earrings',sample:false,name:'V-Shape Zircon Stud Earrings',category:'Jewelry',price:10.99,tag:'NEW',images:['/kadibia-site-/images/v-shape-zircon-stud-earrings-1.webp','/kadibia-site-/images/v-shape-zircon-stud-earrings-2.webp'],description:'V-shape cubic zirconia stud earrings in gold and silver.',details:'Copper alloy, cubic zirconia.',colors:['Gold','Silver'],sizes:['One size']},
+{id:'waterdrop-rhinestone-jewelry-set',sample:false,name:'Waterdrop Rhinestone Jewelry Set',category:'Jewelry',price:8.99,tag:'NEW',images:['/kadibia-site-/images/waterdrop-rhinestone-jewelry-set-1.webp','/kadibia-site-/images/waterdrop-rhinestone-jewelry-set-2.webp'],description:'Three-piece waterdrop rhinestone jewelry set: pendant necklace plus hook earrings.',details:'Zinc alloy with rhinestones.',colors:['Assorted'],sizes:['One size']},
+{id:'sea-turtle-shell-beads-anklet',sample:false,name:'Sea Turtle Shell Beads Anklet',category:'Jewelry',price:6.49,tag:'NEW',images:['/kadibia-site-/images/sea-turtle-shell-beads-anklet-1.webp','/kadibia-site-/images/sea-turtle-shell-beads-anklet-2.webp'],description:'Bohemian multilayer anklet with sea turtle, starfish and shell beads. 23cm plus extender.',details:'Resin and zinc alloy.',colors:['Assorted'],sizes:['One size']},
+{id:'print-satin-pajama-set-long-sleeve',sample:false,name:'Print Satin Pajama Set',category:'Sleepwear',price:30.99,tag:'NEW',images:['/kadibia-site-/images/print-satin-pajama-set-long-sleeve-1.webp'],description:'Print satin pajama set with long sleeves and lace cuff trousers.',details:'Satin with lace trim.',colors:['Assorted'],sizes:['S','M','L','XL']},
+{id:'modal-cotton-nightdress',sample:false,name:'Modal Cotton Nightdress',category:'Sleepwear',price:15.99,tag:'NEW',images:['/kadibia-site-/images/modal-cotton-nightdress-1.webp'],description:'Short-sleeve modal cotton nightdress. Loose mid-calf fit with pockets.',details:'Cotton and modal.',colors:['Assorted'],sizes:['S','M','L','XL']},
+{id:'cotton-crepe-pajama-set-shorts',sample:false,name:'Cotton Crepe Pajama Set',category:'Sleepwear',price:26.99,tag:'NEW',images:['/kadibia-site-/images/cotton-crepe-pajama-set-shorts-1.webp','/kadibia-site-/images/cotton-crepe-pajama-set-shorts-2.webp'],description:'Cotton crepe pajama set: short-sleeve V-neck top plus shorts.',details:'Cotton.',colors:['Assorted'],sizes:['M','L']},
+{id:'lolita-lace-pajama-set-shorts',sample:false,name:'Lolita Lace Pajama Set',category:'Sleepwear',price:36.99,tag:'NEW',images:['/kadibia-site-/images/lolita-lace-pajama-set-shorts-1.webp','/kadibia-site-/images/lolita-lace-pajama-set-shorts-2.webp'],description:'Lolita princess lace pajama set: cotton top plus shorts.',details:'Cotton with lace trim.',colors:['Assorted'],sizes:['S','M','L','XL']},
+{id:'heatless-curling-rod-headband',sample:false,name:'Heatless Curling Rod Headband',category:'Hair Care',price:5.99,tag:'NEW',images:['/kadibia-site-/images/heatless-curling-rod-headband-1.webp'],description:'Heatless curling rod headband. No-heat curl ribbon for overnight waves.',details:'Foam rollers with fabric ribbon.',colors:['Assorted'],sizes:['One size']},
+{id:'fashion-print-satin-scrunchies',sample:false,name:'Fashion Print Satin Scrunchies',category:'Hair Care',price:4.99,tag:'NEW',images:['/kadibia-site-/images/fashion-print-satin-scrunchies-1.webp','/kadibia-site-/images/fashion-print-satin-scrunchies-2.webp'],description:'Fashion print satin scrunchies. Long hair ribbon style ponytail bands.',details:'Satin.',colors:['Assorted'],sizes:['One size']},
+{id:'magic-donut-hair-bun-maker',sample:false,name:'Magic Donut Hair Bun Maker',category:'Hair Care',price:9.99,tag:'NEW',images:['/kadibia-site-/images/magic-donut-hair-bun-maker-1.webp'],description:'Multi-style hair braiding and bun maker set. Donut bun maker with twist clips.',details:'Mixed materials.',colors:['Assorted'],sizes:['One size']},
+{id:'coral-fleece-throw-blanket',sample:false,name:'Coral Fleece Throw Blanket',category:'Home Textiles',price:13.99,tag:'NEW',images:['/kadibia-site-/images/coral-fleece-throw-blanket-1.webp'],description:'Super soft coral fleece throw blanket. Lightweight, anti-pilling.',details:'100% polyester coral fleece.',colors:['Assorted'],sizes:['One size']},
+{id:'linen-sofa-cushion-cover',sample:false,name:'Linen Sofa Cushion Cover',category:'Home Textiles',price:13.99,tag:'NEW',images:['/kadibia-site-/images/linen-sofa-cushion-cover-1.webp'],description:'Linen sofa cushion cover. Decorative throw pillow case.',details:'Linen and polyester blend.',colors:['Assorted'],sizes:['One size']},
+{id:'waterproof-linen-table-runner',sample:false,name:'Waterproof Linen Table Runner',category:'Home Textiles',price:17.99,tag:'NEW',images:['/kadibia-site-/images/waterproof-linen-table-runner-1.webp'],description:'Waterproof linen table runner for wedding, party and home decor.',details:'100% linen, woven.',colors:['Assorted'],sizes:['One size']}
 ];
 
 /* ================= SAMPLE PRODUCTS — hidden from the live shop =================
