@@ -78,6 +78,11 @@ const STRIPE_LINKS = {
   'wotwoy-casual-cotton-basic-tee': 'https://buy.stripe.com/REPLACE_ME_wotwoy-casual-cotton-basic-tee',
   'slithice-letter-print-casual-tee': 'https://buy.stripe.com/REPLACE_ME_slithice-letter-print-casual-tee',
   'fanan-mesh-slip-on-loafers': 'https://buy.stripe.com/REPLACE_ME_fanan-mesh-slip-on-loafers',
+  'chenxi-golden-womens-watch': 'https://buy.stripe.com/REPLACE_ME_chenxi-golden-womens-watch',
+  'kawaii-pu-leather-mini-backpack': 'https://buy.stripe.com/REPLACE_ME_kawaii-pu-leather-mini-backpack',
+  'silk-square-scarf-90cm': 'https://buy.stripe.com/REPLACE_ME_silk-square-scarf-90cm',
+  'genuine-leather-keychain-wallet': 'https://buy.stripe.com/REPLACE_ME_genuine-leather-keychain-wallet',
+  'waterproof-nylon-makeup-bag': 'https://buy.stripe.com/REPLACE_ME_waterproof-nylon-makeup-bag',
 };
 
 /* ----------------------------------------------------------------------------
@@ -180,6 +185,12 @@ const products=[
 {id:'wotwoy-casual-cotton-basic-tee',sample:false,name:'Casual Cotton Basic Tee',category:'Clothing',price:24.99,tag:'NEW',images:['/kadibia-site-/images/wotwoy-casual-cotton-basic-tee-1.webp','/kadibia-site-/images/wotwoy-casual-cotton-basic-tee-2.webp'],description:'Loose-fit casual cotton tee. Knitted, breathable and stretchy. A wardrobe basic.',details:'Cotton. Machine wash cold.',colors:['Assorted'],sizes:['S','M','L','XL']},
 {id:'slithice-letter-print-casual-tee',sample:false,name:'Letter Print Casual Tee',category:'Clothing',price:11.99,tag:'NEW',images:['/kadibia-site-/images/slithice-letter-print-casual-tee-1.webp','/kadibia-site-/images/slithice-letter-print-casual-tee-2.webp'],description:'Casual cotton tee with letter print. Black and red.',details:'Cotton broadcloth. Machine wash cold.',colors:['Black','Red'],sizes:['S','M','L','XL']},
 {id:'fanan-mesh-slip-on-loafers',sample:false,name:'Mesh Slip-On Loafers',category:'Shoes',price:9.99,tag:'NEW',images:['/kadibia-site-/images/fanan-mesh-slip-on-loafers-1.webp'],description:'Breathable mesh slip-on loafers with EVA insole and outsole. Light and comfortable, fits true to size.',details:'Air mesh upper, EVA sole.',colors:['Assorted'],sizes:['35','36','37','38','39','40','41','42','43','44']}
+,
+{id:'chenxi-golden-womens-watch',sample:false,name:'Golden Quartz Watch',category:'Accessories',price:24.99,tag:'NEW',images:['/kadibia-site-/images/chenxi-golden-womens-watch-1.webp','/kadibia-site-/images/chenxi-golden-womens-watch-2.webp'],description:'Golden quartz wristwatch with stainless steel band. Water resistant to 3Bar, 29mm dial.',details:'Stainless steel, quartz movement. 3Bar water resistant.',colors:['Gold'],sizes:['One size']},
+{id:'kawaii-pu-leather-mini-backpack',sample:false,name:'Kawaii Mini Backpack',category:'Bags',price:16.99,tag:'NEW',images:['/kadibia-site-/images/kawaii-pu-leather-mini-backpack-1.webp'],description:'Cute mini backpack in PU leather with bow-knot detail. Zipper closure with interior pockets.',details:'PU leather, polyester lining.',colors:['Assorted'],sizes:['One size']},
+{id:'silk-square-scarf-90cm',sample:false,name:'Silk Square Scarf (90cm)',category:'Accessories',price:8.99,tag:'NEW',images:['/kadibia-site-/images/silk-square-scarf-90cm-1.webp'],description:'90x90cm printed square scarf. Wear as a neck scarf, headscarf, hair bandana or shawl.',details:'Silk and polyester blend.',colors:['Assorted'],sizes:['90x90cm']},
+{id:'genuine-leather-keychain-wallet',sample:false,name:'Leather Keychain Wallet',category:'Accessories',price:9.99,tag:'NEW',images:['/kadibia-site-/images/genuine-leather-keychain-wallet-1.webp','/kadibia-site-/images/genuine-leather-keychain-wallet-2.webp'],description:'Genuine cow leather keychain wallet. Holds keys and cards in one compact pouch.',details:'Genuine cow leather (split).',colors:['Assorted'],sizes:['One size']},
+{id:'waterproof-nylon-makeup-bag',sample:false,name:'Waterproof Makeup Bag',category:'Bags',price:11.99,tag:'NEW',images:['/kadibia-site-/images/waterproof-nylon-makeup-bag-1.webp'],description:'Large-capacity waterproof nylon makeup bag. Travel toiletry organizer with zipper closure.',details:'Waterproof nylon.',colors:['Assorted'],sizes:['One size']}
 ];
 
 /* ================= SAMPLE PRODUCTS — hidden from the live shop =================
